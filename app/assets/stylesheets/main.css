@@ -1,0 +1,47 @@
+.container{
+  text-align: center;
+}
+
+.banner{
+  height: 200px;
+  font-size: 48px;
+}
+
+.button{
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background-color:transparent;
+  -webkit-border-top-left-radius:15px;
+  -moz-border-radius-topleft:15px;
+  border-top-left-radius:15px;
+  -webkit-border-top-right-radius:15px;
+  -moz-border-radius-topright:15px;
+  border-top-right-radius:15px;
+  -webkit-border-bottom-right-radius:15px;
+  -moz-border-radius-bottomright:15px;
+  border-bottom-right-radius:15px;
+  -webkit-border-bottom-left-radius:15px;
+  -moz-border-radius-bottomleft:15px;
+  border-bottom-left-radius:15px;
+  text-indent:0;
+  border:1px solid #707070;
+  display:inline-block;
+  color:#707070;
+  font-family:Arial;
+  font-size:15px;
+  font-style:normal;
+  height:65px;
+  line-height:65px;
+  width:200px;
+  text-decoration:none;
+  text-align:center;
+}
+.classname:active {
+  position:relative;
+  top:1px;
+}
+
+.buttondiv{
+  margin: 50px 0 50px 0;
+}
