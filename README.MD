@@ -1,12 +1,12 @@
-README
+README<br />
 
-Ruby version
-2.2.1
+Ruby version<br />
+2.2.1<br />
 
-To start Ruby server:
-In root directory:
-$ rails s
+To start Ruby server:<br />
+In root directory:<br />
+$ rails s<br />
 
-To start front end Grunt/Angular:
-$ cd public/angular_app
-$ grunt serve
+To start front end Grunt/Angular:<br />
+$ cd public/angular_app<br />
+$ grunt serve<br />
