@@ -12,6 +12,9 @@ gem 'sqlite3'
 
 gem 'rack-cors', :group => :development
 
+gem 'omniauth', '~> 1.2.0'
+gem 'omniauth-cas', github: 'CruGlobal/omniauth-cas'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

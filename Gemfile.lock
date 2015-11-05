@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/CruGlobal/omniauth-cas.git
+  revision: 3a8da6f084ccff97a6b42b987a75c90756adec20
+  specs:
+    omniauth-cas (1.1.0)
+      addressable (~> 2.3)
+      nokogiri (~> 1.6.6.2)
+      omniauth (~> 1.2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -36,11 +45,13 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    addressable (2.3.8)
     arel (6.0.3)
     builder (3.2.2)
     erubis (2.7.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
+    hashie (3.4.3)
     i18n (0.7.0)
     json (1.8.3)
     loofah (2.0.3)
@@ -52,6 +63,9 @@ GEM
     minitest (5.8.2)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
+    omniauth (1.2.2)
+      hashie (>= 1.2, < 4)
+      rack (~> 1.0)
     rack (1.6.4)
     rack-cors (0.4.0)
     rack-test (0.6.3)
@@ -101,6 +115,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  omniauth (~> 1.2.0)
+  omniauth-cas!
   rack-cors
   rails (= 4.2.2)
   rails-api
