@@ -4,4 +4,5 @@ Rails.application.routes.draw do
       get "/greet" => "messages#greet", :as => 'greet'
     end
   end
+  get '/auth/key/callback', to: 'tokens#new'
 end

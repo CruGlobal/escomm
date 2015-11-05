@@ -9,6 +9,7 @@ personalized_ssk.config(
   ['$routeProvider', ($routeProvider) ->
     $routeProvider
       .when('/home', {templateUrl: 'views/main.html', controller: 'MainCtrl'})
+      .when('/signed_in_home', {templateUrl: 'views/signed_in_home.html', controller: 'MainCtrl'})
       .when('/', {templateUrl: 'views/main.html', controller: 'MainCtrl'})
   ]
 )
