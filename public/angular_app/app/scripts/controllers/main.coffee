@@ -16,9 +16,9 @@ class MainCtrl
   getData: ->
     promise = @webService.getGreeting()
     promise.then @success, @error
-
+    
   success: (response) =>
-    @$scope.message = response.data.message
+    @$scope.fname = response.data.fname
 
   error: (response) =>
     @$scope.message = "Error!"

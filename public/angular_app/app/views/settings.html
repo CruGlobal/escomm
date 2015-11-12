@@ -15,7 +15,7 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
                 <li class="greetings">
-                            <div class="greetings-image"><img src="../images/sk.png" /></div> Hi Sarah!<br/>
+                            <div class="greetings-image"><img src="../images/sk.png" /></div> Hi {{fname}}!<br/>
                             <button type="button" class="btn btn-default sign-out-btn"aria-expanded="false">
                             Sign Out
                             </button>
@@ -58,7 +58,7 @@
                           <div class="form-group">
                             <label class="control-label col-sm-2" for="firstName">First Name:</label>
                             <div class="col-sm-10">
-                              <input type="text" class="form-control" id="firstName" placeholder="Sarah">
+                              <input type="text" class="form-control" id="firstName" placeholder="{{fname}}">
                             </div>
                           </div>
                           <div class="form-group">
@@ -70,7 +70,7 @@
                           <div class="form-group">
                             <label class="control-label col-sm-2" for="email">Email:</label>
                             <div class="col-sm-10">
-                              <input type="email" class="form-control" id="email" placeholder="sarah.kline@cru.org">
+                              <input type="email" class="form-control" id="email" placeholder="{{fname}}.kline@cru.org">
                             </div>
                           </div>
                           <div class="form-group">

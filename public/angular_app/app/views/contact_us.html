@@ -15,7 +15,7 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
                 <li class="greetings">
-                            <div class="greetings-image"><img src="../images/sk.png" /></div> Hi Sarah!<br/>
+                            <div class="greetings-image"><img src="../images/sk.png" /></div> Hi {{fname}}!<br/>
                             <button type="button" class="btn btn-default sign-out-btn"aria-expanded="false">
                             Sign Out
                             </button>
@@ -56,10 +56,10 @@
                     <div class="main-content">
                       <form class="form-horizontal" role="form">
                           <div class="form-group col-sm-10">
-                            <input class="form-control" type="text" placeholder="Sarah Kline" readonly>
+                            <input class="form-control" type="text" placeholder="{{fname}} Kline" readonly>
                           </div>
                           <div class="form-group col-sm-10">
-                            <input class="form-control" type="email" placeholder="sarah.kline@cru.org" readonly>
+                            <input class="form-control" type="email" placeholder="{{fname}}.kline@cru.org" readonly>
                           </div>
                           <div class="form-group">
                             <div class="col-sm-10">

@@ -3,7 +3,7 @@ module Api
     class MessagesController < ApplicationController
 
       def greet
-        render :json => { message: User.find(1).fname }.as_json
+      	render :json => { fname: User.find(1).fname}.as_json
       end
 
     end

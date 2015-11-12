@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'sessions/new'
+
   get 'recipients/fname:string' => 'recipients#fname'
 
   get 'recipients/lname:string' => 'recipients#lname'
@@ -21,4 +23,9 @@ Rails.application.routes.draw do
     end
   end
   get '/auth/key/callback', to: 'tokens#new'
+
+  get    'login'   => 'sessions#new'
+  post   'login'   => 'sessions#create'
+  delete 'logout'  => 'sessions#destroy'
+  
 end
