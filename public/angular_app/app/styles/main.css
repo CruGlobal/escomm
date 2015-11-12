@@ -338,3 +338,22 @@ ul.alert-dropdown {
   color: #ccc;
   border: none;
 }
+
+.name{
+  font-weight: bold;
+}
+
+.send-btn{
+  background-color: #0288D1;
+  color: #eee;
+  border: none;
+  margin-top: 10px;
+  width: 80%;
+  height: 40px;
+}
+
+.send-btn:hover{
+  background-color: #01517D;
+  color: #eee;
+  border: none;
+}
