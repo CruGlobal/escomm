@@ -82,6 +82,21 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+  .greetings{
+    text-align: center;
+    width: 225px;
+    height: 200px;
+    color: #ccc;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+  }
+
+  .greetings-image{
+    width: 50%;
+    margin: 0 auto;
+  }
+
 }
 .container{
   text-align: center;
@@ -156,6 +171,23 @@ body {
 .huge {
     font-size: 50px;
     line-height: normal;
+}
+@media(max-width:767px) {
+
+  .greetings-image{
+    display: none;
+  }
+  .greetings{
+    height: 100px;
+    color: #ccc;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    margin-left: 60px;
+  }
+  .navbar-collapse{
+    min-height: 400px;
+  }
 }
 
 @media(min-width:768px) {
@@ -281,7 +313,7 @@ ul.alert-dropdown {
 }
 
 .active{
-  border-left: thick solid #03A9F4;
+  border-left: thick solid #0288D1;
   background-color: #111;
   width: 225px;
 }
@@ -294,17 +326,15 @@ ul.alert-dropdown {
   border: none;
 }
 
-.greetings{
-  text-align: center;
-  width: 225px;
-  height: 180px;
+.sign-out-btn{
+  background-color: #0288D1;
   color: #ccc;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
-  font-size: 24px;
+  border: none;
+  margin-top: 10px;
 }
 
-.greetings-image{
-  width: 50%;
-  margin: 0 auto;
+.sign-out-btn:hover{
+  background-color: #01517D;
+  color: #ccc;
+  border: none;
 }
