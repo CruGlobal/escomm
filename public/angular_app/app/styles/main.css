@@ -61,9 +61,6 @@ body {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
   .navbar-header{
     display: none;
   }
@@ -104,7 +101,6 @@ body {
 
 .banner{
   height: 200px;
-  font-size: 48px;
 }
 
 .button{
@@ -147,9 +143,8 @@ body {
 }
 
 body {
-    margin-top: 100px;
-    background-color: #222;
-}
+/*    margin-top: 100px;
+*/}
 
 @media(min-width:768px) {
     body {
@@ -366,4 +361,115 @@ ul.alert-dropdown {
 .side-nav{
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
+}
+
+body{
+  
+}
+
+.first-block{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  background: url('../images/home_bg.png') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.block{
+  height: 100vh;
+}
+
+.first-heading{
+  text-align: left;
+  margin: 20px 0 0 20px;
+  font-size: 48px;
+}
+
+.introducing-ssk{
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.small-text{
+  font-weight: 300;
+  font-size: 18px;
+}
+
+@media (min-width: 1200px){
+.container {
+    width: 100%;
+}
+}
+@media (min-width: 992px){
+.container {
+    width: 100%;
+}
+}
+@media (min-width: 768px){
+.container {
+    width: 100%;
+}
+}
+.container{
+  padding: 0;
+}
+
+.second-block{
+  color: #222;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+.second-content{
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 200%;
+  text-align: left;
+  margin-left: 30%;
+}
+
+.second-heading{
+  font-size: 48px;
+  margin: 30px;
+}
+
+.share-faith-img{
+  margin: 115px 0 0 5%;
+}
+
+.third-block{
+  background: url('../images/engaging_content_bg.png') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #222;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+.fourth-block{
+  color: #222;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+.fifth-block{
+  background: url('../images/getting_started_bg.png') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #222;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+.fifth-heading{
+  text-align: left;
+  margin: 75px 0 0 75px;
+  font-size: 48px;
 }
