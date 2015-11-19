@@ -1,15 +1,22 @@
 source 'https://rubygems.org'
 
-
 gem 'rails', '4.2.2'
 
 # gem 'rails-api'
 
 gem 'spring', :group => :development
 
-gem 'sqlite3'
+gem 'puma'
+gem 'syslog-logger'
+gem 'rest-client'
+gem 'pg'
 
-gem 'rack-cors', :group => :development
+group :development do
+end 
+
+group :development, :test do
+  gem 'dotenv-rails'
+end
 
 # gem 'omniauth', '~> 1.2.0'
 # gem 'omniauth-cas', github: 'CruGlobal/omniauth-cas'
@@ -21,6 +28,8 @@ gem 'rack-cors', :group => :development
 # # gem 'cru_lib', '~> 0.0.4', github: 'CruGlobal/cru_lib'
 
 group :development, :test do
+  gem 'spring'
+  gem 'rack-cors'
   gem 'pry-byebug'
   gem 'pry-rails'
 end
