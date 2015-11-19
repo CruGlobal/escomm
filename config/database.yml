@@ -8,7 +8,6 @@ development: &dev
   password: <%= ENV.fetch('DB_ENV_POSTGRESQL_PASS') %>
   host: <%= ENV.fetch('DB_PORT_5432_TCP_ADDR') %>
 
-
 staging:
   <<: *dev
 
