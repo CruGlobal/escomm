@@ -85,7 +85,7 @@ body {
   .greetings{
     text-align: center;
     width: 225px;
-    height: 200px;
+    height: 150px;
     color: #ccc;
     font-family: 'Lato', sans-serif;
     font-weight: 100;
@@ -178,7 +178,7 @@ body {
     display: none;
   }
   .greetings{
-    height: 100px;
+    height: 45px;
     color: #ccc;
     font-family: 'Lato', sans-serif;
     font-weight: 100;
@@ -273,7 +273,7 @@ ul.alert-dropdown {
 @media(min-width:768px) {
     .side-nav {
         position: fixed;
-        top: 51px;
+        top: 30px;
         left: 225px;
         width: 225px;
         margin-left: -225px;
@@ -326,11 +326,16 @@ ul.alert-dropdown {
   border: none;
 }
 
+.sign-out-btn-wrapper{
+  text-align: center;
+  width: 225px;
+}
+
 .sign-out-btn{
   background-color: #0288D1;
   color: #ccc;
   border: none;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .sign-out-btn:hover{
@@ -356,4 +361,9 @@ ul.alert-dropdown {
   background-color: #01517D;
   color: #eee;
   border: none;
+}
+
+.side-nav{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
 }
