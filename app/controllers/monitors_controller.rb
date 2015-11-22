@@ -3,7 +3,7 @@ class MonitorsController < ApplicationController
   # newrelic_ignore
 
   def lb
-    User.first
+    # User.first
     render text: 'OK'
   end
 end
