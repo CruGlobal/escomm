@@ -1,10 +1,10 @@
 class RecipientsController < ApplicationController
-  def fname:string
-  end
+  # def fname:string
+  # end
 
-  def lname:string
-  end
+  # def lname:string
+  # end
 
-  def email:string
-  end
+  # def email:string
+  # end
 end

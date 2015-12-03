@@ -10,6 +10,13 @@ gem 'puma'
 gem 'syslog-logger'
 gem 'rest-client'
 gem 'pg'
+gem 'sidekiq'
+
+#testing
+gem 'letter_opener'
+gem 'launchy'
+gem 'sinatra', '>= 1.3.0', :require => nil
+
 
 group :development do
 end 

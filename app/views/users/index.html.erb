@@ -1,0 +1,9 @@
+<%= form_tag("users/contact", method: "post") do %>
+  <%= label_tag("Your Name: ") %>
+  <%= text_field_tag(:name) %>
+  <%= label_tag("Email: ") %>
+  <%= text_field_tag(:email) %>
+  <%= label_tag("Message: ") %>
+  <%= text_field_tag(:message) %>
+  <%= submit_tag("Send") %>
+<% end %>

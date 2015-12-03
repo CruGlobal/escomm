@@ -64,4 +64,11 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+
+  #testing
+    # to be appraised of mailing errors
+  config.action_mailer.raise_delivery_errors = true
+  # to deliver to the browser instead of email
+  config.action_mailer.delivery_method = :letter_opener
 end

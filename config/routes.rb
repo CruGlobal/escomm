@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  post 'users/contact', to: 'users#contact'
+  root 'users#index'
+
   get 'sessions/new'
 
   get 'recipients/fname:string' => 'recipients#fname'
@@ -30,4 +33,8 @@ Rails.application.routes.draw do
   delete 'logout'  => 'sessions#destroy'
 
   get 'monitors/lb' => 'monitors#lb'
+
+
+  require 'sidekiq/web'
+  mount Sidekiq::Web => '/sidekiq'
 end

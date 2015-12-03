@@ -1,107 +1,53 @@
-<div id="wrapper">
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header navmenu-fixed-left">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Spiritual Starter Kit</a>
-        </div>
-        <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav side-nav">
-                <li class="greetings">
-                            <div class="greetings-image"><img src="../images/sk.png" /></div> Hi Sarah{{fname}}!<br/>
-                </li>
-                <li class="active">
-                    <a href="/#/signed_in_home"><i class="fa fa-fw fa-bar-chart-o"></i> Statistics</a>
-                </li>
-                <li>
-                    <a href="/#/send_invite"><i class="fa fa-fw fa-inbox"></i> Invite</a>
-                </li>
-                <li>
-                    <a href="/#/resources"><i class="fa fa-fw fa-table"></i> Resources</a>
-                </li>
-                <li>
-                    <a href="/#/about"><i class="fa fa-fw fa-desktop"></i> About</a>
-                </li>
-                <li>
-                    <a href="/#/settings"><i class="fa fa-fw fa-gear"></i> Settings</a>
-                </li>
-                <li>
-                    <a href="/#/contact_us"><i class="fa fa-fw fa-edit"></i> Contact Us</a>
-                </li>
-                <li class="sign-out-btn-wrapper">
-                    <a href="/#/"><button type="button" class="btn btn-default sign-out-btn"aria-expanded="false">
-                        Sign Out
-                    </button></a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </nav>
-
-    <div id="page-wrapper">
-
-        <div class="container-fluid">
-
-            <!-- Page Heading -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">
-                        Contact Stats
-                    </h1>
-                    <div class="main-content">
-                      <table class="table table-striped">
-                        <tbody>
-                          <tr>
-                            <td><span class="name">Abigail Johnson</span><br><small>Invited 10 days ago</small></td>
-                            <td><a href="">Reinvite</a> <a href=""><i class="fa fa-question-circle"></i></a></td>
-                          </tr>
-                          <tr>
-                            <td><span class="name">Chris Pun</span><br><small>Last Activity: 1 Day Ago</small></td>
-                            <td>
-                                <i class="fa fa-check" style="color: green;"></i>
-                                <i class="fa fa-check" style="color: green;"></i>
-                                <i class="fa fa-check" style="color: green;"></i>
-                                <i class="fa fa-check" style="color: green;"></i>
-                                <i class="fa fa-check" style="color: green;"></i>
-                                <i class="fa fa-check"></i>
-                                <i class="fa fa-check"></i>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td><span class="name">Paulo Saulo</span><br><small>Last Activity: 9 Days Ago</small></td>
-                            <td>
-                                <i class="fa fa-check" style="color: green;"></i>
-                                <i class="fa fa-check" style="color: red;"></i>
-                                <i class="fa fa-check"></i>
-                                <i class="fa fa-check"></i>
-                                <i class="fa fa-check"></i>
-                                <i class="fa fa-check"></i>
-                                <i class="fa fa-check"></i>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td><span class="name">Samantha Lin</span><br><small>Rejected: 12 Days Ago</small></td>
-                            <td><a href="">Remove <i class="fa fa-close"></i></a></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                </div>
-            </div>
-            <!-- /.row -->
-
-        </div>
-        <!-- /.container-fluid -->
-
+<!-- Static navbar -->
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href=""><span class="orange">Me</span>-2-<span class="orange">You</span></a>
     </div>
-    <!-- /#page-wrapper -->
-
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="">Contacts' Activity</a></li>
+        <li><a href="">Resources</a></li>
+        <li><a href="" class="clear"><button type="button" class="btn btn-orange"> + New Invitation</button></a></li>
+        <li class="dropdown">
+              <a href="" class="dropdown-toggle clear" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">  <img src="../images/sarah.png" alt="sarah" style="margin-right: 10px;">Sarah Student <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="">Account Settings</a></li>
+                <li><a href="">About This App</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="/#/">Sign Out</a></li>
+              </ul>
+            </li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+<div class="front-banner">
 </div>
-<!-- /#wrapper -->
+<div class="container main-container">
+  <div class="row">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-5"><br/><br/>
+    <img src="../images/growth.png" alt="growth" style="float: left; margin-right: 10px;">
+    <strong>Help New Believers Grow</strong><br/>
+    Invite them to a personal email series from you. Every few days, they will learn from you important truths about their new relationship with God.<br/><br/>
+    <img src="../images/thumbprint.png" alt="personal" style="float: left; margin-right: 10px;">
+    <strong>Your Personal Version</strong><br/>
+    The emails are already there for you. You edit sections to be true of your own personal life. Then you simply invite people to your personal series. Each email is automatically delivered to them, over days, from you.<br/><br/>
+    <hr>
+    <div style="text-align: center; text-decoration: underline;"><a href="#/">See Sample Email</a></div>
+    </div>
+    <div class="col-md-5"><br/><br/>
+      <img class="sign-up" src="../images/signup.png" alt="signup">
+    </div>
+    <div class="col-md-1">
+    </div>
+  </div>
+</div>
