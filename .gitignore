@@ -11,10 +11,8 @@
 !/log/.keep
 /tmp
 /.env
-vendor/ruby
 .tmp
 vendor/ruby
-vendor/bundle
 .env.local
 .idea
 node_modules/
@@ -23,3 +21,4 @@ bower_components/
 .tmp/
 dist/
 src/json
+.DS_Store
