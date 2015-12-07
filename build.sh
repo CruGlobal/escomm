@@ -8,7 +8,7 @@ if [ $rc -ne 0 ]; then
 fi
 
 bundle clean &&
-cd app/assets &&
+cd client &&
 ./build.sh &&
 cd ../.. &&
 docker build -t cruglobal/$PROJECT_NAME:$GIT_COMMIT-$BUILD_NUMBER .
