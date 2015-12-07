@@ -10,6 +10,7 @@ var browserSyncSpa = require('browser-sync-spa');
 var util = require('util');
 
 var proxyMiddleware = require('http-proxy-middleware');
+var exec = require('child_process').exec;
 
 function browserSyncInit(baseDir, browser) {
   browser = browser === undefined ? 'default' : browser;
@@ -23,19 +24,14 @@ function browserSyncInit(baseDir, browser) {
 
   var server = {
     baseDir: baseDir,
-    routes: routes
+    routes: routes,
+    middleware: [
+      proxyMiddleware('/api', { target: 'http://localhost:3000' })
+    ]
   };
 
-  /*
-   * You can add a proxy to your backend by uncommenting the line below.
-   * You just have to configure a context which will we redirected and the target url.
-   * Example: $http.get('/users') requests will be automatically proxified.
-   *
-   * For more details and option, https://github.com/chimurai/http-proxy-middleware/blob/v0.0.5/README.md
-   */
-  // server.middleware = proxyMiddleware('/users', {target: 'http://jsonplaceholder.typicode.com', proxyHost: 'jsonplaceholder.typicode.com'});
-
   browserSync.instance = browserSync.init({
+    port: '9000',
     startPath: '/',
     server: server,
     browser: browser
@@ -53,6 +49,12 @@ gulp.task('serve', ['watch'], function () {
 gulp.task('serve:dist', ['build'], function () {
   browserSyncInit(conf.paths.dist);
 });
+
+gulp.task('rails', function() {
+  exec("cd .. && rails server");
+});
+
+gulp.task('serve:full-stack', ['rails', 'serve']);
 
 gulp.task('serve:e2e', ['inject'], function () {
   browserSyncInit([conf.paths.tmp + '/serve', conf.paths.src], []);
