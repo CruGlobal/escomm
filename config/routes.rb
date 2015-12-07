@@ -33,6 +33,7 @@ Rails.application.routes.draw do
   delete 'logout'  => 'sessions#destroy'
 
   get 'monitors/lb' => 'monitors#lb'
+  get 'monitors/commit' => 'monitors#commit'
 
 
   require 'sidekiq/web'
