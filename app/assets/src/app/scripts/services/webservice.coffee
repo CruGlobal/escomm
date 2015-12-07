@@ -8,5 +8,5 @@ class WebService
   getGreeting: () ->
     @$http.get(@baseUrl + "greet")
 
-angular.module "personalized_ssk.WebService", [], ($provide) ->
+angular.module "escomm.WebService", [], ($provide) ->
   $provide.factory "webService", ["$http", ($http) -> new WebService($http)]

@@ -25,4 +25,4 @@ class MainCtrl
 
 
 MainCtrl.$inject = ["$scope", "webService"]
-angular.module("personalized_ssk").controller "MainCtrl", MainCtrl
+angular.module("escomm").controller "MainCtrl", MainCtrl

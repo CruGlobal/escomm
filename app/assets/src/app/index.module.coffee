@@ -1,1 +1,7 @@
-angular.module 'assets', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngMessages', 'ngAria', 'restangular', 'ngRoute', 'toastr']
+'use strict'
+angular.module 'escomm', [
+  'ngResource', 'ngSanitize',
+  'ngAnimate', 'ngRoute',
+  'escomm.WebService'
+]
+
