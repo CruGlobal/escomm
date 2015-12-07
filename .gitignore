@@ -13,6 +13,7 @@
 /.env
 .tmp
 vendor/ruby
+vendor/bundle/ruby
 .env.local
 .idea
 node_modules/
