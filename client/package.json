@@ -6,6 +6,7 @@
     "test": "gulp test"
   },
   "devDependencies": {
+    "bower": "^1.6.9",
     "estraverse": "~4.1.0",
     "gulp": "~3.9.0",
     "gulp-autoprefixer": "~3.0.2",
