@@ -12,10 +12,60 @@ msgstr ""
 "X-Generator: Poedit 1.6.7\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/app/views/signed_in_home.html:39
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+
+#: src/app/main/main.html:11
+msgid "2"
+msgstr "2"
+
+#: src/app/main/main.html:17
+msgid "About"
+msgstr "Körülbelül"
+
+#: src/app/main/main.html:18
+msgid "Contact"
+msgstr "Kapcsolatba lép"
+
+#: src/app/main/main.html:32
 msgid "Help New Believers Grow"
 msgstr "Segíts Új hívők Grow"
 
-#: src/app/views/signed_in_home.html:40
+#: src/app/main/main.html:33
 msgid "Invite them to a personal email series from you. Every few days, they will learn from you important truths about their new relationship with God."
 msgstr "Kérd meg őket , hogy egy személyes e-mail -sorozat tőled . Pár nap , akkor tanulni tőled fontos igazságokat az új kapcsolat Istennel ."
+
+#: src/app/main/main.html:11
+msgid "Me"
+msgstr "Nekem"
+
+#: src/app/main/main.html:16
+msgid "Resources"
+msgstr "Erőforrás"
+
+#: src/app/main/main.html:38
+msgid "See Sample Email"
+msgstr "Lásd Minta Email"
+
+#: src/app/main/main.html:19
+msgid "Sign In"
+msgstr "Bejelentkezés"
+
+#: src/app/main/main.html:15
+msgid "Sign Up"
+msgstr "Regisztrálj"
+
+#: src/app/main/main.html:36
+msgid "The emails are already there for you. You edit sections to be true of your own personal life. Then you simply invite people to your personal series. Each email is automatically delivered to them, over days, from you."
+msgstr "Az e-mailek már ott vannak az Ön számára . A szerkesztés szakaszok , hogy igaz legyen saját személyes életét . Akkor egyszerűen hívja az embereket, hogy a személyes sorozatban . Minden e-mailt automatikusan hozzájuk beszállított mint nap , tőled ."
+
+#: src/app/main/main.html:11
+msgid "You"
+msgstr "Te"
+
+#: src/app/main/main.html:35
+msgid "Your Personal Version"
+msgstr "Az Ön személyes verzió"
