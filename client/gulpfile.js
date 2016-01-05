@@ -6,9 +6,9 @@
 
 'use strict';
 
-var gulp = require('gulp');
-var wrench = require('wrench');
-
+var gulp     = require('gulp');
+var wrench   = require('wrench');
+var	gettext  = require( 'gulp-angular-gettext' );
 /**
  *  This will load all js or coffee files in the gulp directory
  *  in order to load all gulp tasks

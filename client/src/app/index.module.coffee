@@ -2,6 +2,5 @@
 angular.module 'escomm', [
   'ngResource', 'ngSanitize',
   'ngAnimate', 'ngRoute',
-  'escomm.WebService'
+  'escomm.WebService', 'gettext'
 ]
-
