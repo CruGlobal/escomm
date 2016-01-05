@@ -1,0 +1,13 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+
+#: src/app/views/signed_in_home.html:39
+msgid "Help New Believers Grow"
+msgstr ""
+
+#: src/app/views/signed_in_home.html:40
+msgid "Invite them to a personal email series from you. Every few days, they will learn from you important truths about their new relationship with God."
+msgstr ""
