@@ -9,4 +9,5 @@ angular.module 'escomm'
       .when('/about', {templateUrl: 'app/views/about.html', controller: 'MainCtrl'})
       .when('/settings', {templateUrl: 'app/views/settings.html', controller: 'MainCtrl'})
       .when('/contact_us', {templateUrl: 'app/views/contact_us.html', controller: 'MainCtrl'})
+      .when('/confirm_invite', {templateUrl: 'app/views/confirm_invite.html', controller: 'MainCtrl'})
       .when('/', {templateUrl: 'app/main/main.html', controller: 'MainCtrl'})

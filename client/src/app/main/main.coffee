@@ -11,7 +11,12 @@ class MainCtrl
       'AngularJS'
       'Karma'
     ]
-    @getData()
+    @$scope.formData =
+      firstName: ''
+      lastName: ''
+      emailAddress: ''
+      emailLanguage: ''
+      customMessage: ''
 
   getData: ->
     promise = @webService.getGreeting()
@@ -22,7 +27,9 @@ class MainCtrl
 
   error: (response) =>
     @$scope.message = "Error!"
-
-
+  
+  sendInvite: ->
+    console.log("works")
+    
 MainCtrl.$inject = ["$scope", "webService"]
 angular.module("escomm").controller "MainCtrl", MainCtrl

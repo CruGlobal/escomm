@@ -5,6 +5,7 @@ msgstr ""
 "Project-Id-Version: \n"
 
 #: about.html:17
+#: confirm_invite.html:17
 #: contact_us.html:17
 #: resources.html:17
 #: send_invite.html:17
@@ -13,6 +14,7 @@ msgid "+ New Invitation"
 msgstr ""
 
 #: about.html:11
+#: confirm_invite.html:11
 #: contact_us.html:11
 #: index.html:31
 #: main.html:11
@@ -29,6 +31,7 @@ msgid "About"
 msgstr ""
 
 #: about.html:22
+#: confirm_invite.html:22
 #: contact_us.html:22
 #: resources.html:22
 #: send_invite.html:22
@@ -37,6 +40,7 @@ msgid "About This App"
 msgstr ""
 
 #: about.html:21
+#: confirm_invite.html:21
 #: contact_us.html:21
 #: resources.html:21
 #: send_invite.html:21
@@ -44,8 +48,24 @@ msgstr ""
 msgid "Account Settings"
 msgstr ""
 
+#: send_invite.html:75
+msgid "Add personalized message here!"
+msgstr ""
+
+#: send_invite.html:73
+msgid "Add Personalized Message:"
+msgstr ""
+
 #: about.html:40
 msgid "Blurb about this website"
+msgstr ""
+
+#: confirm_invite.html:46
+msgid "Confirm"
+msgstr ""
+
+#: confirm_invite.html:40
+msgid "Confirm Invitation"
 msgstr ""
 
 #: contact_us.html:40
@@ -55,6 +75,7 @@ msgid "Contact"
 msgstr ""
 
 #: about.html:23
+#: confirm_invite.html:23
 #: contact_us.html:23
 #: resources.html:23
 #: send_invite.html:23
@@ -63,6 +84,7 @@ msgid "Contact Us"
 msgstr ""
 
 #: about.html:15
+#: confirm_invite.html:15
 #: contact_us.html:15
 #: resources.html:15
 #: send_invite.html:15
@@ -74,7 +96,7 @@ msgstr ""
 msgid "Cru &copy; 2015"
 msgstr ""
 
-#: send_invite.html:73
+#: send_invite.html:79
 msgid "Customize Intro Message"
 msgstr ""
 
@@ -130,6 +152,7 @@ msgid "List Resources Here"
 msgstr ""
 
 #: about.html:11
+#: confirm_invite.html:11
 #: contact_us.html:11
 #: index.html:31
 #: main.html:11
@@ -140,6 +163,7 @@ msgid "Me"
 msgstr ""
 
 #: about.html:16
+#: confirm_invite.html:16
 #: contact_us.html:16
 #: index.html:38
 #: main.html:16
@@ -155,6 +179,7 @@ msgid "Resources to help...."
 msgstr ""
 
 #: about.html:19
+#: confirm_invite.html:19
 #: contact_us.html:19
 #: resources.html:19
 #: send_invite.html:19
@@ -172,7 +197,7 @@ msgid "Select Email Language:"
 msgstr ""
 
 #: send_invite.html:40
-#: send_invite.html:77
+#: send_invite.html:83
 msgid "Send Invitation"
 msgstr ""
 
@@ -185,6 +210,7 @@ msgid "Sign In"
 msgstr ""
 
 #: about.html:24
+#: confirm_invite.html:24
 #: contact_us.html:24
 #: resources.html:24
 #: send_invite.html:24
@@ -207,6 +233,7 @@ msgid "Username"
 msgstr ""
 
 #: about.html:11
+#: confirm_invite.html:11
 #: contact_us.html:11
 #: index.html:31
 #: main.html:11
