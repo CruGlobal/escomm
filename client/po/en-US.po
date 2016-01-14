@@ -3,6 +3,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en-US\n"
 
 #: src/app/views/about.html:17
 #: src/app/views/contact_us.html:17
@@ -10,7 +18,7 @@ msgstr ""
 #: src/app/views/send_invite.html:17
 #: src/app/views/signed_in_home.html:17
 msgid "+ New Invitation"
-msgstr ""
+msgstr "+ New Invitation"
 
 #: src/app/main/main.html:11
 #: src/app/views/about.html:11
@@ -20,13 +28,13 @@ msgstr ""
 #: src/app/views/signed_in_home.html:11
 #: src/index.html:31
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: src/app/main/main.html:17
 #: src/app/views/about.html:39
 #: src/index.html:40
 msgid "About"
-msgstr ""
+msgstr "About"
 
 #: src/app/views/about.html:22
 #: src/app/views/contact_us.html:22
@@ -34,7 +42,7 @@ msgstr ""
 #: src/app/views/send_invite.html:22
 #: src/app/views/signed_in_home.html:22
 msgid "About This App"
-msgstr ""
+msgstr "About This App"
 
 #: src/app/views/about.html:21
 #: src/app/views/contact_us.html:21
@@ -42,17 +50,17 @@ msgstr ""
 #: src/app/views/send_invite.html:21
 #: src/app/views/signed_in_home.html:21
 msgid "Account Settings"
-msgstr ""
+msgstr "Account Settings"
 
 #: src/app/views/about.html:40
 msgid "Blurb about this website"
-msgstr ""
+msgstr "Blurb about this website"
 
 #: src/app/main/main.html:18
 #: src/app/views/contact_us.html:40
 #: src/index.html:42
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: src/app/views/about.html:23
 #: src/app/views/contact_us.html:23
@@ -60,7 +68,7 @@ msgstr ""
 #: src/app/views/send_invite.html:23
 #: src/app/views/signed_in_home.html:23
 msgid "Contact Us"
-msgstr ""
+msgstr "Contact Us"
 
 #: src/app/views/about.html:15
 #: src/app/views/contact_us.html:15
@@ -68,66 +76,66 @@ msgstr ""
 #: src/app/views/send_invite.html:15
 #: src/app/views/signed_in_home.html:15
 msgid "Contacts' Activity"
-msgstr ""
+msgstr "Contacts' Activity"
 
 #: src/index.html:45
 msgid "Cru &copy; 2015"
-msgstr ""
+msgstr "Cru &copy; 2015"
 
 #: src/app/views/send_invite.html:73
 msgid "Customize Intro Message"
-msgstr ""
+msgstr "Customize Intro Message"
 
 #: src/app/views/send_invite.html:58
 msgid "Email:"
-msgstr ""
+msgstr "Email:"
 
 #: src/app/views/contact_us.html:49
 #: src/app/views/send_invite.html:60
 msgid "email@example.com"
-msgstr ""
+msgstr "email@example.com"
 
 #: src/app/views/send_invite.html:67
 msgid "English"
-msgstr ""
+msgstr "English"
 
 #: src/app/views/send_invite.html:48
 msgid "First Name"
-msgstr ""
+msgstr "First Name"
 
 #: src/app/views/send_invite.html:46
 msgid "First Name:"
-msgstr ""
+msgstr "First Name:"
 
 #: src/app/main/main.html:32
 #: src/app/views/signed_in_home.html:39
 msgid "Help New Believers Grow"
-msgstr ""
+msgstr "Help New Believers Grow"
 
 #: src/index.html:34
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #: src/app/views/send_invite.html:68
 msgid "Hungarian"
-msgstr ""
+msgstr "Hungarian"
 
 #: src/app/main/main.html:33
 #: src/app/views/signed_in_home.html:40
 msgid "Invite them to a personal email series from you. Every few days, they will learn from you important truths about their new relationship with God."
-msgstr ""
+msgstr "Invite them to a personal email series from you. Every few days, they will learn from you important truths about their new relationship with God."
 
 #: src/app/views/send_invite.html:54
 msgid "Last Name"
-msgstr ""
+msgstr "Last Name"
 
 #: src/app/views/send_invite.html:52
 msgid "Last Name:"
-msgstr ""
+msgstr "Last Name:"
 
 #: src/app/views/resources.html:43
 msgid "List Resources Here"
-msgstr ""
+msgstr "List Resources Here"
 
 #: src/app/main/main.html:11
 #: src/app/views/about.html:11
@@ -137,7 +145,7 @@ msgstr ""
 #: src/app/views/signed_in_home.html:11
 #: src/index.html:31
 msgid "Me"
-msgstr ""
+msgstr "Me"
 
 #: src/app/main/main.html:16
 #: src/app/views/about.html:16
@@ -148,11 +156,11 @@ msgstr ""
 #: src/app/views/signed_in_home.html:16
 #: src/index.html:38
 msgid "Resources"
-msgstr ""
+msgstr "Resources"
 
 #: src/app/views/resources.html:40
 msgid "Resources to help...."
-msgstr ""
+msgstr "Resources to help...."
 
 #: src/app/views/about.html:19
 #: src/app/views/contact_us.html:19
@@ -160,29 +168,29 @@ msgstr ""
 #: src/app/views/send_invite.html:19
 #: src/app/views/signed_in_home.html:19
 msgid "Sarah Student"
-msgstr ""
+msgstr "Sarah Student"
 
 #: src/app/main/main.html:38
 #: src/app/views/signed_in_home.html:45
 msgid "See Sample Email"
-msgstr ""
+msgstr "See Sample Email"
 
 #: src/app/views/send_invite.html:64
 msgid "Select Email Language:"
-msgstr ""
+msgstr "Select Email Language:"
 
 #: src/app/views/send_invite.html:40
 #: src/app/views/send_invite.html:77
 msgid "Send Invitation"
-msgstr ""
+msgstr "Send Invitation"
 
 #: src/app/views/contact_us.html:58
 msgid "Send Message"
-msgstr ""
+msgstr "Send Message"
 
 #: src/app/main/main.html:19
 msgid "Sign In"
-msgstr ""
+msgstr "Sign In"
 
 #: src/app/views/about.html:24
 #: src/app/views/contact_us.html:24
@@ -190,21 +198,21 @@ msgstr ""
 #: src/app/views/send_invite.html:24
 #: src/app/views/signed_in_home.html:24
 msgid "Sign Out"
-msgstr ""
+msgstr "Sign Out"
 
 #: src/app/main/main.html:15
 #: src/index.html:36
 msgid "Sign Up"
-msgstr ""
+msgstr "Sign Up"
 
 #: src/app/main/main.html:36
 #: src/app/views/signed_in_home.html:43
 msgid "The emails are already there for you. You edit sections to be true of your own personal life. Then you simply invite people to your personal series. Each email is automatically delivered to them, over days, from you."
-msgstr ""
+msgstr "The emails are already there for you. You edit sections to be true of your own personal life. Then you simply invite people to your personal series. Each email is automatically delivered to them, over days, from you."
 
 #: src/app/views/contact_us.html:46
 msgid "Username"
-msgstr ""
+msgstr "Username"
 
 #: src/app/main/main.html:11
 #: src/app/views/about.html:11
@@ -214,13 +222,13 @@ msgstr ""
 #: src/app/views/signed_in_home.html:11
 #: src/index.html:31
 msgid "You"
-msgstr ""
+msgstr "You"
 
 #: src/app/views/contact_us.html:53
 msgid "Your Message"
-msgstr ""
+msgstr "Your Message"
 
 #: src/app/main/main.html:35
 #: src/app/views/signed_in_home.html:42
 msgid "Your Personal Version"
-msgstr ""
+msgstr "Your Personal Version"
