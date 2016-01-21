@@ -89,6 +89,29 @@ $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/"
   }
 }
 
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+th, td {
+    padding: 15px;
+}
+
+.edit-table{
+  border: 1px solid #eee;
+}
+
+.edit-table-btn{
+  text-align: right;
+}
+
+.lesson-links{
+  padding: 10px;
+}
+
 @media only screen and (min-width: 768px) {
   .navbar-brand{
     padding: 28px 15px 15px 15px;
