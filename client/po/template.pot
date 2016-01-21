@@ -4,54 +4,250 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: \n"
 
-#: src/app/main/main.html:11
+#: about.html:17
+#: confirm_invite.html:17
+#: contact_us.html:17
+#: resources.html:17
+#: send_invite.html:17
+#: signed_in_home.html:17
+msgid "+ New Invitation"
+msgstr ""
+
+#: about.html:11
+#: confirm_invite.html:11
+#: contact_us.html:11
+#: index.html:31
+#: main.html:11
+#: resources.html:11
+#: send_invite.html:11
+#: signed_in_home.html:11
 msgid "2"
 msgstr ""
 
-#: src/app/main/main.html:17
+#: about.html:39
+#: index.html:40
+#: main.html:17
 msgid "About"
 msgstr ""
 
-#: src/app/main/main.html:18
+#: about.html:22
+#: confirm_invite.html:22
+#: contact_us.html:22
+#: resources.html:22
+#: send_invite.html:22
+#: signed_in_home.html:22
+msgid "About This App"
+msgstr ""
+
+#: about.html:21
+#: confirm_invite.html:21
+#: contact_us.html:21
+#: resources.html:21
+#: send_invite.html:21
+#: signed_in_home.html:21
+msgid "Account Settings"
+msgstr ""
+
+#: send_invite.html:75
+msgid "Add personalized message here!"
+msgstr ""
+
+#: send_invite.html:73
+msgid "Add Personalized Message:"
+msgstr ""
+
+#: about.html:40
+msgid "Blurb about this website"
+msgstr ""
+
+#: confirm_invite.html:46
+msgid "Confirm"
+msgstr ""
+
+#: confirm_invite.html:40
+msgid "Confirm Invitation"
+msgstr ""
+
+#: contact_us.html:40
+#: index.html:42
+#: main.html:18
 msgid "Contact"
 msgstr ""
 
-#: src/app/main/main.html:32
+#: about.html:23
+#: confirm_invite.html:23
+#: contact_us.html:23
+#: resources.html:23
+#: send_invite.html:23
+#: signed_in_home.html:23
+msgid "Contact Us"
+msgstr ""
+
+#: about.html:15
+#: confirm_invite.html:15
+#: contact_us.html:15
+#: resources.html:15
+#: send_invite.html:15
+#: signed_in_home.html:15
+msgid "Contacts' Activity"
+msgstr ""
+
+#: index.html:45
+msgid "Cru &copy; 2015"
+msgstr ""
+
+#: send_invite.html:79
+msgid "Customize Intro Message"
+msgstr ""
+
+#: send_invite.html:58
+msgid "Email:"
+msgstr ""
+
+#: contact_us.html:49
+#: send_invite.html:60
+msgid "email@example.com"
+msgstr ""
+
+#: send_invite.html:67
+msgid "English"
+msgstr ""
+
+#: send_invite.html:48
+msgid "First Name"
+msgstr ""
+
+#: send_invite.html:46
+msgid "First Name:"
+msgstr ""
+
+#: main.html:32
+#: signed_in_home.html:39
 msgid "Help New Believers Grow"
 msgstr ""
 
-#: src/app/main/main.html:33
+#: index.html:34
+msgid "Home"
+msgstr ""
+
+#: send_invite.html:68
+msgid "Hungarian"
+msgstr ""
+
+#: main.html:33
+#: signed_in_home.html:40
 msgid "Invite them to a personal email series from you. Every few days, they will learn from you important truths about their new relationship with God."
 msgstr ""
 
-#: src/app/main/main.html:11
+#: send_invite.html:54
+msgid "Last Name"
+msgstr ""
+
+#: send_invite.html:52
+msgid "Last Name:"
+msgstr ""
+
+#: resources.html:43
+msgid "List Resources Here"
+msgstr ""
+
+#: about.html:11
+#: confirm_invite.html:11
+#: contact_us.html:11
+#: index.html:31
+#: main.html:11
+#: resources.html:11
+#: send_invite.html:11
+#: signed_in_home.html:11
 msgid "Me"
 msgstr ""
 
-#: src/app/main/main.html:16
+#: about.html:16
+#: confirm_invite.html:16
+#: contact_us.html:16
+#: index.html:38
+#: main.html:16
+#: resources.html:16
+#: resources.html:39
+#: send_invite.html:16
+#: signed_in_home.html:16
 msgid "Resources"
 msgstr ""
 
-#: src/app/main/main.html:38
+#: resources.html:40
+msgid "Resources to help...."
+msgstr ""
+
+#: about.html:19
+#: confirm_invite.html:19
+#: contact_us.html:19
+#: resources.html:19
+#: send_invite.html:19
+#: signed_in_home.html:19
+msgid "Sarah Student"
+msgstr ""
+
+#: main.html:38
+#: signed_in_home.html:45
 msgid "See Sample Email"
 msgstr ""
 
-#: src/app/main/main.html:19
+#: send_invite.html:64
+msgid "Select Email Language:"
+msgstr ""
+
+#: send_invite.html:40
+#: send_invite.html:83
+msgid "Send Invitation"
+msgstr ""
+
+#: contact_us.html:58
+msgid "Send Message"
+msgstr ""
+
+#: main.html:19
 msgid "Sign In"
 msgstr ""
 
-#: src/app/main/main.html:15
+#: about.html:24
+#: confirm_invite.html:24
+#: contact_us.html:24
+#: resources.html:24
+#: send_invite.html:24
+#: signed_in_home.html:24
+msgid "Sign Out"
+msgstr ""
+
+#: index.html:36
+#: main.html:15
 msgid "Sign Up"
 msgstr ""
 
-#: src/app/main/main.html:36
+#: main.html:36
+#: signed_in_home.html:43
 msgid "The emails are already there for you. You edit sections to be true of your own personal life. Then you simply invite people to your personal series. Each email is automatically delivered to them, over days, from you."
 msgstr ""
 
-#: src/app/main/main.html:11
+#: contact_us.html:46
+msgid "Username"
+msgstr ""
+
+#: about.html:11
+#: confirm_invite.html:11
+#: contact_us.html:11
+#: index.html:31
+#: main.html:11
+#: resources.html:11
+#: send_invite.html:11
+#: signed_in_home.html:11
 msgid "You"
 msgstr ""
 
-#: src/app/main/main.html:35
+#: contact_us.html:53
+msgid "Your Message"
+msgstr ""
+
+#: main.html:35
+#: signed_in_home.html:42
 msgid "Your Personal Version"
 msgstr ""

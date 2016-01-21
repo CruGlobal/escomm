@@ -1,71 +1,203 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: escomm\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Asaph Yuan <asaph.yuan@cru.org>\n"
-"Language-Team: \n"
-"Language: hu\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.7\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-msgid ""
-msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: hu\n"
 
-#: src/app/main/main.html:11
+#: src/app/views/about.html:17 src/app/views/contact_us.html:17
+#: src/app/views/resources.html:17 src/app/views/send_invite.html:17
+#: src/app/views/signed_in_home.html:17
+msgid "+ New Invitation"
+msgstr "+ Új meghívás"
+
+#: src/app/main/main.html:11 src/app/views/about.html:11
+#: src/app/views/contact_us.html:11 src/app/views/resources.html:11
+#: src/app/views/send_invite.html:11 src/app/views/signed_in_home.html:11
 msgid "2"
 msgstr "2"
 
-#: src/app/main/main.html:17
+#: src/app/main/main.html:17 src/app/views/about.html:39
 msgid "About"
-msgstr "Körülbelül"
+msgstr "Rólam"
 
-#: src/app/main/main.html:18
+#: src/app/views/about.html:22 src/app/views/contact_us.html:22
+#: src/app/views/resources.html:22 src/app/views/send_invite.html:22
+#: src/app/views/signed_in_home.html:22
+msgid "About This App"
+msgstr "Ez app"
+
+#: src/app/views/about.html:21 src/app/views/contact_us.html:21
+#: src/app/views/resources.html:21 src/app/views/send_invite.html:21
+#: src/app/views/signed_in_home.html:21
+msgid "Account Settings"
+msgstr "Fiók mód beállítások"
+
+#: src/app/views/about.html:40
+msgid "Blurb about this website"
+msgstr "A fülszöveg a honlapról"
+
+#: src/app/main/main.html:18 src/app/views/contact_us.html:40
 msgid "Contact"
-msgstr "Kapcsolatba lép"
+msgstr "Kapcsolat"
 
-#: src/app/main/main.html:32
+#: src/app/views/about.html:23 src/app/views/contact_us.html:23
+#: src/app/views/resources.html:23 src/app/views/send_invite.html:23
+#: src/app/views/signed_in_home.html:23
+msgid "Contact Us"
+msgstr "Kapcsolat"
+
+#: src/app/views/about.html:15 src/app/views/contact_us.html:15
+#: src/app/views/resources.html:15 src/app/views/send_invite.html:15
+#: src/app/views/signed_in_home.html:15
+msgid "Contacts' Activity"
+msgstr "Tevékenység-partnerek"
+
+#: src/app/views/send_invite.html:73
+msgid "Customize Intro Message"
+msgstr "Intro üzenet testreszabása"
+
+#: src/app/views/send_invite.html:58
+msgid "Email:"
+msgstr "Email:"
+
+#: src/app/views/contact_us.html:49 src/app/views/send_invite.html:60
+msgid "email@example.com"
+msgstr "email@example.com"
+
+#: src/app/views/send_invite.html:67
+msgid "English"
+msgstr "Angol"
+
+#: src/app/views/send_invite.html:48
+msgid "First Name"
+msgstr "Keresztnév"
+
+#: src/app/views/send_invite.html:46
+msgid "First Name:"
+msgstr "Keresztnév:"
+
+#: src/app/main/main.html:32 src/app/views/signed_in_home.html:39
 msgid "Help New Believers Grow"
 msgstr "Segíts Új hívők Grow"
 
-#: src/app/main/main.html:33
-msgid "Invite them to a personal email series from you. Every few days, they will learn from you important truths about their new relationship with God."
-msgstr "Kérd meg őket , hogy egy személyes e-mail -sorozat tőled . Pár nap , akkor tanulni tőled fontos igazságokat az új kapcsolat Istennel ."
+#: src/app/views/send_invite.html:68
+msgid "Hungarian"
+msgstr "Magyar"
 
-#: src/app/main/main.html:11
+#: src/app/main/main.html:33 src/app/views/signed_in_home.html:40
+msgid ""
+"Invite them to a personal email series from you. Every few days, they will "
+"learn from you important truths about their new relationship with God."
+msgstr ""
+"Kérd meg őket , hogy egy személyes e-mail -sorozat tőled . Pár nap , akkor "
+"tanulni tőled fontos igazságokat az új kapcsolat Istennel ."
+
+#: src/app/views/send_invite.html:54
+msgid "Last Name"
+msgstr "Családnév"
+
+#: src/app/views/send_invite.html:52
+msgid "Last Name:"
+msgstr "Családnév:"
+
+#: src/app/views/resources.html:43
+msgid "List Resources Here"
+msgstr "Lista Erőforrások Itt"
+
+#: src/app/main/main.html:11 src/app/views/about.html:11
+#: src/app/views/contact_us.html:11 src/app/views/resources.html:11
+#: src/app/views/send_invite.html:11 src/app/views/signed_in_home.html:11
 msgid "Me"
 msgstr "Nekem"
 
-#: src/app/main/main.html:16
+#: src/app/main/main.html:16 src/app/views/about.html:16
+#: src/app/views/contact_us.html:16 src/app/views/resources.html:16
+#: src/app/views/resources.html:39 src/app/views/send_invite.html:16
+#: src/app/views/signed_in_home.html:16
 msgid "Resources"
 msgstr "Erőforrás"
 
-#: src/app/main/main.html:38
+#: src/app/views/resources.html:40
+msgid "Resources to help...."
+msgstr "Forrásokat, hogy segítsen ...."
+
+#: src/app/views/about.html:19 src/app/views/contact_us.html:19
+#: src/app/views/resources.html:19 src/app/views/send_invite.html:19
+#: src/app/views/signed_in_home.html:19
+msgid "Sarah Student"
+msgstr "Sarah Diák"
+
+#: src/app/main/main.html:38 src/app/views/signed_in_home.html:45
 msgid "See Sample Email"
 msgstr "Lásd Minta Email"
+
+#: src/app/views/send_invite.html:64
+msgid "Select Email Language:"
+msgstr "Válasszuk Email nyelv :"
+
+#: src/app/views/send_invite.html:40 src/app/views/send_invite.html:77
+msgid "Send Invitation"
+msgstr "Meghívó küldése"
+
+#: src/app/views/contact_us.html:58
+msgid "Send Message"
+msgstr "Üzenet küldése"
 
 #: src/app/main/main.html:19
 msgid "Sign In"
 msgstr "Bejelentkezés"
 
+#: src/app/views/about.html:24 src/app/views/contact_us.html:24
+#: src/app/views/resources.html:24 src/app/views/send_invite.html:24
+#: src/app/views/signed_in_home.html:24
+msgid "Sign Out"
+msgstr "Kijelentkezés"
+
 #: src/app/main/main.html:15
 msgid "Sign Up"
 msgstr "Regisztrálj"
 
-#: src/app/main/main.html:36
-msgid "The emails are already there for you. You edit sections to be true of your own personal life. Then you simply invite people to your personal series. Each email is automatically delivered to them, over days, from you."
-msgstr "Az e-mailek már ott vannak az Ön számára . A szerkesztés szakaszok , hogy igaz legyen saját személyes életét . Akkor egyszerűen hívja az embereket, hogy a személyes sorozatban . Minden e-mailt automatikusan hozzájuk beszállított mint nap , tőled ."
+#: src/app/main/main.html:36 src/app/views/signed_in_home.html:43
+msgid ""
+"The emails are already there for you. You edit sections to be true of your "
+"own personal life. Then you simply invite people to your personal series. "
+"Each email is automatically delivered to them, over days, from you."
+msgstr ""
+"Az e-mailek már ott vannak az Ön számára . A szerkesztés szakaszok , hogy "
+"igaz legyen saját személyes életét . Akkor egyszerűen hívja az embereket, "
+"hogy a személyes sorozatban . Minden e-mailt automatikusan hozzájuk "
+"beszállított mint nap , tőled ."
 
-#: src/app/main/main.html:11
+#: src/app/views/contact_us.html:46
+msgid "Username"
+msgstr "Felhasználói név"
+
+#: src/app/main/main.html:11 src/app/views/about.html:11
+#: src/app/views/contact_us.html:11 src/app/views/resources.html:11
+#: src/app/views/send_invite.html:11 src/app/views/signed_in_home.html:11
 msgid "You"
 msgstr "Te"
 
-#: src/app/main/main.html:35
+#: src/app/views/contact_us.html:53
+msgid "Your Message"
+msgstr "Az üzeneted"
+
+#: src/app/main/main.html:35 src/app/views/signed_in_home.html:42
 msgid "Your Personal Version"
 msgstr "Az Ön személyes verzió"
+
+#: src/index.html:47
+msgid "Cru &copy; 2015"
+msgstr "Cru &copy; 2015"
+
+#: src/index.html:36
+msgid "Home"
+msgstr "Otthon"

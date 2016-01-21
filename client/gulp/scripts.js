@@ -19,3 +19,13 @@ gulp.task('scripts', function () {
     .pipe(browserSync.reload({ stream: true }))
     .pipe($.size())
 });
+
+gulp.task('js', function () {
+  return gulp.src(path.join(conf.paths.src, '/app/**/*.js'))
+    .pipe($.sourcemaps.init())
+    .pipe($.uglifier())
+    .pipe($.sourcemaps.write())
+    .pipe(gulp.dest(path.join(conf.paths.tmp, '/serve/app')))
+    .pipe(browserSync.reload({ stream: true }))
+    .pipe($.size())
+});
