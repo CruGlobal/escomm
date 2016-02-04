@@ -103,7 +103,7 @@ Example JSON:
 {
     "emailSeriesID": 1,
     "lessonID": 3,
-    "lang": en,
+    "lang": "en",
     "editedSections": [
     	"section1": "edited section1",
     	"section2": "edited section2",
