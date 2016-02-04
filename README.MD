@@ -11,7 +11,7 @@ This web app allows you to invite people to receive an email series from you. Af
 
 ##API Calls
 
-For all calls passed an authentication token is assumed in the HTTP headers or in a query string.
+For all calls passed an authentication token is assumed in the HTTP header or in a query string.
 
 ###FIRST PHASE:
 
@@ -20,7 +20,7 @@ For all calls passed an authentication token is assumed in the HTTP headers or i
 - Recipients array with first name, email
 - Language
 - Email series id
-- Customized Intro Message (optional)
+- Customized intro message (optional)
 
 Example JSON:
 ```json
@@ -30,7 +30,7 @@ Example JSON:
     	{"firstName": "Andy", "email": "andy@email.com"},
     	{"firstName": "Barry", "email": "barry@email.com"},
     	{"firstName": "Candice", "email": "candice@email.com"}
-    ]
+    ],
     "lang": "en",
     "emailID": 1,
     "customizedIntroMsg": "lorem ipsum customized intro message"
@@ -39,11 +39,12 @@ Example JSON:
 
 ######Expected Server Action:
 - Find proper invite email based on email language and id
-- Send invite email to recipient
-- Email has name of inviter in the “from” field
-- Email reply button goes to inviter’s email
-- Email has unique link which starts the email series (generated on sender sending invite email that maps to a particular sender and recipient)
-- Email has unsubscribe button (links to unique URL generated on sender sending invite email)
+- Generates unique urls for starting and unsubscribing from email series (one way to approach this is create an URL with the hash of the sender and recipient emails) Requires functions to start and stop the email series
+- Email contains name of inviter in the “from” field
+- Email contains reply button that goes to inviter’s email
+- Email contains start email series button to unique URL
+- Email contains unsubscribe button to unique URL
+- Send invite email to recipient(s)
 
 ######Response from Server:
 - Confirmation or failure of sending message and error message if necessary
@@ -58,9 +59,6 @@ Example JSON:
 
 
 ###SECOND PHASE:
-####Authentication  
-1) Sign Up  
-2) Log In  
 
 ####Edit Email Series
 ######HTTP POST:
@@ -70,7 +68,7 @@ Example JSON:
 Example JSON:
 ```json
 {
-    "emailID": 1,
+    "emailSeriesID": 1,
     "lessonID": 3,
     "lang": "en"
 }
@@ -81,7 +79,7 @@ Example JSON:
 
 ######Response from Server:
 - JSON with lesson, editable section,
-- email, salutation, signature of inviter (current user)
+- salutation, signature of inviter (current user)
 
 Example JSON:
 ```json
@@ -89,7 +87,6 @@ Example JSON:
     "editableSection1": "lorem ipsum1....",
     "editableSection2": "lorem ipsum2....",
     "lesson": "lorem ipsum lesson",
-    "email": "sarah@email.com",
     "salutation": "Sincerely,",
     "signature": "Sarah S."
 }
@@ -104,8 +101,9 @@ Example JSON:
 Example JSON:
 ```json
 {
-    "emailID": 1,
+    "emailSeriesID": 1,
     "lessonID": 3,
+    "lang": en,
     "editedSections": [
     	"section1": "edited section1",
     	"section2": "edited section2",
@@ -135,14 +133,13 @@ Example JSON:
 
 ######Response from Server:
 - success or failure
-- JSON of user’s email, salutation, signature
+- JSON of user’s salutation and signature
 
 Example JSON:
 ```json
 {
     "success": "true",
     "errMsg": "",
-    "email": "sarah@email.com",
     "salutation": "Sincerely,",
     "signature": "Sarah S."
 }
@@ -150,12 +147,11 @@ Example JSON:
 
 ####Save User Preferences
 ######HTTP POST:
-- Email, salutation, signature, password
+- Salutation, signature, password
 
 Example JSON:
 ```json
 {
-    "email": "sarah@email.com",
     "salutation": "Sincerely,",
     "signature": "Sarah S."
 }
