@@ -9,37 +9,15 @@ https://escomm-stage.cru.org/
 
 This web app allows you to invite people to receive an email series from you. After they signup, emails will be sent from you, in an automated, timed way. They will be sent from your email address. And people who sign up will be able to reply to you with their thoughts or questions. You will know how many people have signed up, who they are, and how far along they are in the series. You will have their email address and will be able to reach out to them, to see if they have any questions, or perhaps invite them to meet with you or come to an event.
 
-##Build Process
-
-Ruby version<br />
-2.2.1<br />
-
-To build:<br />
-cd client
-./build.sh
-
-
-To start Ruby server:<br />
-In root directory:<br />
-$ rails s<br />
-
-To add a new language translation:<br />
-cd client<br />
-./build.sh //ensures latest version<br />
-Copy client/po/template.pot<br />
-Save translated file in client/po directory<br />
-
-
 ##API Calls
+
+For all calls passed an authentication token is assumed in the HTTP headers or in a query string.
 
 ###FIRST PHASE:
 
 ####Send Invitation
 ######HTTP POST:
-- Authentication token (once we get authentication hooked up)
-- First name of recipient
-- Recipient email
-- Sender email
+- Recipients array with first name, email
 - Language
 - Email series id
 - Customized Intro Message (optional)
@@ -47,12 +25,15 @@ Save translated file in client/po directory<br />
 Example JSON:
 ```json
 {
-    "authToken": 1,
-    "fName": "Sarah",
-    "recipientEmail": "recipient@email.com",
-    "senderEmail": "sender@email.com",
+    "recipients":[
+    	{"firstName": "Sarah", "email": "sarah@email.com"},
+    	{"firstName": "Andy", "email": "andy@email.com"},
+    	{"firstName": "Barry", "email": "barry@email.com"},
+    	{"firstName": "Candice", "email": "candice@email.com"}
+    ]
     "lang": "en",
-    "emailID": 1
+    "emailID": 1,
+    "customizedIntroMsg": "lorem ipsum customized intro message"
 }
 ```
 
@@ -61,16 +42,17 @@ Example JSON:
 - Send invite email to recipient
 - Email has name of inviter in the “from” field
 - Email reply button goes to inviter’s email
-- Email has ability to accept the invite (which sends: inviter email or id, recipient email, email series id) to server to start email series)
+- Email has unique link which starts the email series (generated on sender sending invite email that maps to a particular sender and recipient)
+- Email has unsubscribe button (links to unique URL generated on sender sending invite email)
 
 ######Response from Server:
-- Confirmation or failure of sending message and if failed, why (like if email has already been invited
+- Confirmation or failure of sending message and error message if necessary
 
 Example JSON:
 ```json
 {
     "success": "false",
-    "errMsg": "Email Already Invited"
+    "errMsg": "Error Message Here"
 }
 ```
 
@@ -82,14 +64,12 @@ Example JSON:
 
 ####Edit Email Series
 ######HTTP POST:
-- Authentication token
 - Email Series ID and Lesson ID
 - Language
 
 Example JSON:
 ```json
 {
-    "authToken": 1,
     "emailID": 1,
     "lessonID": 3,
     "lang": "en"
@@ -117,18 +97,19 @@ Example JSON:
 
 ####Save Email Series
 ######HTTP POST:
-- Authentication token
 - Email Series ID and Lesson ID
 - Language
-- Edited section
+- Edited sections
 
 Example JSON:
 ```json
 {
-    "authToken": 1,
     "emailID": 1,
     "lessonID": 3,
-    "editedSection": "I changed this text"
+    "editedSections": [
+    	"section1": "edited section1",
+    	"section2": "edited section2",
+    ]
 }
 ```
 
@@ -148,14 +129,6 @@ Example JSON:
 
 ####Edit User Preferences
 ######HTTP POST:
-- Authentication token
-
-Example JSON
-```json
-{
-    "authToken": 1
-}
-```
 
 ######Expected Server Action
 - Retrieve and return user preferences
@@ -177,13 +150,11 @@ Example JSON:
 
 ####Save User Preferences
 ######HTTP POST:
-- Authentication token
 - Email, salutation, signature, password
 
 Example JSON:
 ```json
 {
-    "authToken": 1,
     "email": "sarah@email.com",
     "salutation": "Sincerely,",
     "signature": "Sarah S."
@@ -206,14 +177,6 @@ Example JSON:
 
 ####Display Contact Activity (Tracking Stats)
 ######HTTP POST:
-- Authentication token
-
-Example JSON:
-```json
-{
-    "authToken": 1
-}
-```
 
 ######Expected Server Action:
 - Retrieve and return user’s friends who have been invited
@@ -235,47 +198,13 @@ Example JSON:
 }
 ```
 
-####Display Resources
-######HTTP POST:
-- Authentication token
-
-Example JSON:
-```json
-{
-    "authToken": 1
-}
-```
-
-######Expected Server Action:
-- Retrieve and return resources
-
-######Response from Server:
-- success or failure
-- list of resources
-
-Example JSON:
-```json
-{
-    "success": "true",
-    "errMsg": "",
-    "resources": [
-    	{"title": "Google", "link": "google.com"},
-    	{"title": "Amazon", "link": "amazon.com"},
-    	{"title": "Facebook", "link": "facebook.com"},
-    	{"title": "Apple", "link": "apple.com"}
-    ]
-}
-```
-
 ####Contact Us
 ######HTTP POST:
-- Authentication token
 - message to send
 
 Example JSON:
 ```json
 {
-    "authToken": 1,
     "msg": "lorem ipusm message"
 }
 ```
@@ -293,3 +222,26 @@ Example JSON:
     "errMsg": ""
 }
 ```
+
+
+##Build Process
+
+Temporary build instructions for hosting it on the Cru staging site
+
+Ruby version<br />
+2.2.1<br />
+
+To build:<br />
+cd client
+./build.sh
+
+
+To start Ruby server:<br />
+In root directory:<br />
+$ rails s<br />
+
+To add a new language translation:<br />
+cd client<br />
+./build.sh //ensures latest version<br />
+Copy client/po/template.pot<br />
+Save translated file in client/po directory<br />
