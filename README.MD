@@ -86,12 +86,34 @@ Example JSON:
 - Email Series ID and Lesson ID
 - Language
 
+Example JSON:
+```json
+{
+    "authToken": 1,
+    "emailID": 1,
+    "lessonID": 3,
+    "lang": "en"
+}
+```
+
 ######Expected Server Action:
 - Searches for and returns requested lesson
 
 ######Response from Server:
 - JSON with lesson, editable section,
 - email, salutation, signature of inviter (current user)
+
+Example JSON:
+```json
+{
+    "editableSection1": "lorem ipsum1....",
+    "editableSection2": "lorem ipsum2....",
+    "lesson": "lorem ipsum lesson",
+ 		"email": "sarah@email.com",
+    "salutation": "Sincerely,",
+    "signature": "Sarah S."
+}
+```
 
 ####Save Email Series
 ######HTTP POST:
@@ -100,15 +122,40 @@ Example JSON:
 - Language
 - Edited section
 
+Example JSON:
+```json
+{
+    "authToken": 1,
+    "emailID": 1,
+    "lessonID": 3,
+    "editedSection": "I changed this text"
+}
+```
+
 ######Expected Server Action:
 - Save edited lesson to user’s customized series
 
 ######Response from Server:
 - success or failure
 
+Example JSON:
+```json
+{
+    "success": "true",
+    "errMsg": ""
+}
+```
+
 ####Edit User Preferences
 ######HTTP POST:
 - Authentication token
+
+Example JSON
+```json
+{
+    "authToken": 1
+}
+```
 
 ######Expected Server Action
 - Retrieve and return user preferences
@@ -117,10 +164,31 @@ Example JSON:
 - success or failure
 - JSON of user’s email, salutation, signature
 
+Example JSON:
+```json
+{
+    "success": "true",
+    "errMsg": "",
+    "email": "sarah@email.com",
+    "salutation": "Sincerely,",
+    "signature": "Sarah S."
+}
+```
+
 ####Save User Preferences
 ######HTTP POST:
 - Authentication token
 - Email, salutation, signature, password
+
+Example JSON:
+```json
+{
+		"authToken": 1,
+    "email": "sarah@email.com",
+    "salutation": "Sincerely,",
+    "signature": "Sarah S."
+}
+```
 
 ######Expected Server Action:
 - Save user preferences
@@ -128,20 +196,55 @@ Example JSON:
 ######Response from Server:
 - success or failure
 
+Example JSON:
+```json
+{
+    "success": "true",
+    "errMsg": ""
+}
+```
+
 ####Display Contact Activity (Tracking Stats)
 ######HTTP POST:
 - Authentication token
+
+Example JSON:
+```json
+{
+    "authToken": 1
+}
+```
 
 ######Expected Server Action:
 - Retrieve and return user’s friends who have been invited
 
 ######Response from Server:
 - success or failure
-- friends’ name, last activity(email opens), open percentage, progress
+- contacts' name, last activity(email opens), open percentage, progress
+
+Example JSON:
+```json
+{
+    "success": "true",
+    "errMsg": "",
+    "contacts": [
+    	{"firstName": "Andy", "lastActivity": "2/3/2016", "openPercentage": "80%", "progress": "5/8"},
+    	{"firstName": "Barry", "lastActivity": "1/15/2016", "openPercentage": "0%", "progress": "0/8"},
+    	{"firstName": "Candice", "lastActivity": "2/1/2016", "openPercentage": "100%", "progress": "8/8"}
+    ]
+}
+```
 
 ####Display Resources
 ######HTTP POST:
 - Authentication token
+
+Example JSON:
+```json
+{
+    "authToken": 1
+}
+```
 
 ######Expected Server Action:
 - Retrieve and return resources
@@ -150,13 +253,43 @@ Example JSON:
 - success or failure
 - list of resources
 
+Example JSON:
+```json
+{
+    "success": "true",
+    "errMsg": "",
+    "resources": [
+    	{"title": "Google", "link": "google.com"},
+    	{"title": "Amazon", "link": "amazon.com"},
+    	{"title": "Facebook", "link": "facebook.com"},
+    	{"title": "Apple", "link": "apple.com"}
+    ]
+}
+```
+
 ####Contact Us
 ######HTTP POST:
 - Authentication token
 - message to send
+
+Example JSON:
+```json
+{
+    "authToken": 1
+    "msg": "lorem ipusm message"
+}
+```
 
 ######Expected Server Action:
 - send email
 
 ######Response from Server:
 - success or failure
+
+Example JSON:
+```json
+{
+    "success": "true",
+    "errMsg": ""
+}
+```
