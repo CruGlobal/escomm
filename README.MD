@@ -30,7 +30,7 @@ Save translated file in client/po directory<br />
 
 ###FIRST PHASE:
 
-#####Send Invitation
+####Send Invitation
 ######HTTP POST:
 - Authentication token (once we get authentication hooked up)
 - First name of recipient
@@ -51,110 +51,83 @@ Save translated file in client/po directory<br />
 - Confirmation or failure of sending message and if failed, why (like if email has already been invited
 
 ###SECOND PHASE:
-Authentication
-1) Sign Up
-2) Log In
+####Authentication  
+1) Sign Up  
+2) Log In  
 
-Edit Email Series
-
-HTTP POST:
-
+####Edit Email Series
+######HTTP POST:
 - Authentication token
 - Email Series ID and Lesson ID
 - Language
 
-Expected Server Action:
-
+######Expected Server Action:
 - Searches for and returns requested lesson
 
-Response from Server:
-
+######Response from Server:
 - JSON with lesson, editable section,
 - email, salutation, signature of inviter (current user)
 
-Save Email Series
-
-HTTP POST:
-
+####Save Email Series
+######HTTP POST:
 - Authentication token
 - Email Series ID and Lesson ID
 - Language
 - Edited section
 
-Expected Server Action:
-
+######Expected Server Action:
 - Save edited lesson to user’s customized series
 
-Response from Server:
-
+######Response from Server:
 - success or failure
 
-Edit User Preferences
-HTTP POST:
-
+####Edit User Preferences
+######HTTP POST:
 - Authentication token
-
-Expected Server Action:
-
+######Expected Server Action
 - Retrieve and return user preferences
-
-Response from Server:
-
+######Response from Server:
 - success or failure
 - JSON of user’s email, salutation, signature
 
-Save User Preferences
-HTTP POST:
-
+####Save User Preferences
+######HTTP POST:
 - Authentication token
 - Email, salutation, signature, password
 
-Expected Server Action:
-
+######Expected Server Action:
 - Save user preferences
 
-Response from Server:
-
+######Response from Server:
 - success or failure
 
-Display Contact Activity (Tracking Stats)
-HTTP POST:
-
+####Display Contact Activity (Tracking Stats)
+######HTTP POST:
 - Authentication token
-
-Expected Server Action:
-
+######Expected Server Action:
 - Retrieve and return user’s friends who have been invited
-
-Response from Server:
-
+######Response from Server:
 - success or failure
 - friends’ name, last activity(email opens), open percentage, progress
 
-Display Resources
-HTTP POST:
-
+####Display Resources
+######HTTP POST:
 - Authentication token
 
-Expected Server Action:
-
+######Expected Server Action:
 - Retrieve and return resources
 
-Response from Server:
-
+######Response from Server:
 - success or failure
 - list of resources
 
-Contact Us
-HTTP POST:
-
+####Contact Us
+######HTTP POST:
 - Authentication token
 - message to send
 
-Expected Server Action:
-
+######Expected Server Action:
 - send email
 
-Response from Server:
-
+######Response from Server:
 - success or failure
