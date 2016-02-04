@@ -31,5 +31,5 @@ class MainCtrl
   sendInvite: ->
     console.log("works")
     
-MainCtrl.$inject = ["$scope", "webService"]
 angular.module("escomm").controller "MainCtrl", MainCtrl
+MainCtrl.$inject = ["$scope", "webService"]
