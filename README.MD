@@ -44,6 +44,18 @@ Save translated file in client/po directory<br />
 - Email series id
 - Customized Intro Message (optional)
 
+Example JSON:
+```json
+{
+    "authToken": 1,
+    "fName": "Sarah",
+    "recipientEmail": "recipient@email.com",
+    "senderEmail": "sender@email.com",
+    "lang": "en",
+    "emailID": 1
+}
+```
+
 ######Expected Server Action:
 - Find proper invite email based on email language and id
 - Send invite email to recipient
@@ -53,6 +65,15 @@ Save translated file in client/po directory<br />
 
 ######Response from Server:
 - Confirmation or failure of sending message and if failed, why (like if email has already been invited
+
+Example JSON:
+```json
+{
+    "success": "false",
+    "errMsg": "Email Already Invited"
+}
+```
+
 
 ###SECOND PHASE:
 ####Authentication  
