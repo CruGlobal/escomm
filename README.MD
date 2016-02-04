@@ -109,7 +109,7 @@ Example JSON:
     "editableSection1": "lorem ipsum1....",
     "editableSection2": "lorem ipsum2....",
     "lesson": "lorem ipsum lesson",
- 		"email": "sarah@email.com",
+ 	  "email": "sarah@email.com",
     "salutation": "Sincerely,",
     "signature": "Sarah S."
 }
@@ -183,7 +183,7 @@ Example JSON:
 Example JSON:
 ```json
 {
-		"authToken": 1,
+    "authToken": 1,
     "email": "sarah@email.com",
     "salutation": "Sincerely,",
     "signature": "Sarah S."
@@ -275,7 +275,7 @@ Example JSON:
 Example JSON:
 ```json
 {
-    "authToken": 1
+    "authToken": 1,
     "msg": "lorem ipusm message"
 }
 ```
