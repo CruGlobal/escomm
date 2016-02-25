@@ -28,7 +28,7 @@
     </div><!--/.nav-collapse -->
   </div>
 </nav>
-<div class="container main-container">
+<div class="container main-container" ng-controller="MainCtrl">
   <div class="row">
     <div class="col-md-1">
     </div>
@@ -39,7 +39,7 @@
                         Send Invitation
                     </h1>
                     <div class="main-content">
-                        <form class="form-horizontal" role="form">
+                        <form class="form-horizontal" role="form" ng-submit="sendInvite()">
                           <div class="form-group">
                             <label class="control-label col-sm-2" for="firstName" translate>First Name:</label>
                             <div class="col-sm-10">
@@ -78,7 +78,7 @@
                           </div><br/>
                           <div class="form-group center"> 
                             <div class="col-sm-offset-2 col-sm-10">
-                              <a href="/#/confirm_invite"><button type="submit" ng-click="sendInvite()" class="btn btn-orange send-btn"><translate>Send Invitation</translate></button></a>
+                              <button type="submit" class="btn btn-orange send-btn"><translate>Send Invitation</translate></button>
                             </div>
                           </div>
                         </form>

@@ -27,9 +27,6 @@ class MainCtrl
 
   error: (response) =>
     @$scope.message = "Error!"
-  
-  sendInvite: ->
-    console.log("works")
     
 angular.module("escomm").controller "MainCtrl", MainCtrl
 MainCtrl.$inject = ["$scope", "webService"]

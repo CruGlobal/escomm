@@ -4,469 +4,473 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: \n"
 
-#: src/app/views/about.html:17
-#: src/app/views/account_settings.html:17
-#: src/app/views/confirm_invite.html:17
-#: src/app/views/contact_us.html:17
-#: src/app/views/contacts_activity.html:17
-#: src/app/views/resources.html:17
-#: src/app/views/send_invite.html:17
-#: src/app/views/signed_in_home.html:17
+#: about.html:17
+#: account_settings.html:17
+#: confirm_invite.html:17
+#: contact_us.html:17
+#: contacts_activity.html:17
+#: resources.html:17
+#: send_invite.html:17
+#: signed_in_home.html:17
 msgid "+ New Invitation"
 msgstr ""
 
-#: src/app/views/contacts_activity.html:46
+#: contacts_activity.html:46
 msgid "100%"
 msgstr ""
 
-#: src/app/main/main.html:11
-#: src/app/views/about.html:11
-#: src/app/views/account_settings.html:11
-#: src/app/views/confirm_invite.html:11
-#: src/app/views/contact_us.html:11
-#: src/app/views/contacts_activity.html:11
-#: src/app/views/resources.html:11
-#: src/app/views/send_invite.html:11
-#: src/app/views/signed_in_home.html:11
-#: src/index.html:31
+#: about.html:11
+#: account_settings.html:11
+#: confirm_invite.html:11
+#: contact_us.html:11
+#: contacts_activity.html:11
+#: index.html:31
+#: main.html:11
+#: resources.html:11
+#: send_invite.html:11
+#: signed_in_home.html:11
 msgid "2"
 msgstr ""
 
-#: src/app/views/contacts_activity.html:52
+#: contacts_activity.html:52
 msgid "2/8"
 msgstr ""
 
-#: src/app/views/contacts_activity.html:47
+#: contacts_activity.html:47
 msgid "5/8"
 msgstr ""
 
-#: src/app/views/contacts_activity.html:51
+#: contacts_activity.html:51
 msgid "50%"
 msgstr ""
 
-#: src/app/views/contacts_activity.html:55
+#: contacts_activity.html:55
 msgid "Abigail A."
 msgstr ""
 
-#: src/app/main/main.html:17
-#: src/app/views/about.html:37
-#: src/index.html:40
+#: about.html:37
+#: index.html:40
+#: main.html:17
 msgid "About"
 msgstr ""
 
-#: src/app/views/about.html:22
-#: src/app/views/account_settings.html:22
-#: src/app/views/confirm_invite.html:22
-#: src/app/views/contact_us.html:22
-#: src/app/views/contacts_activity.html:22
-#: src/app/views/resources.html:22
-#: src/app/views/send_invite.html:22
-#: src/app/views/signed_in_home.html:22
+#: about.html:22
+#: account_settings.html:22
+#: confirm_invite.html:22
+#: contact_us.html:22
+#: contacts_activity.html:22
+#: resources.html:22
+#: send_invite.html:22
+#: signed_in_home.html:22
 msgid "About This App"
 msgstr ""
 
-#: src/app/views/about.html:21
-#: src/app/views/account_settings.html:21
-#: src/app/views/account_settings.html:38
-#: src/app/views/confirm_invite.html:21
-#: src/app/views/contact_us.html:21
-#: src/app/views/contacts_activity.html:21
-#: src/app/views/resources.html:21
-#: src/app/views/send_invite.html:21
-#: src/app/views/signed_in_home.html:21
+#: about.html:21
+#: account_settings.html:21
+#: account_settings.html:38
+#: confirm_invite.html:21
+#: contact_us.html:21
+#: contacts_activity.html:21
+#: resources.html:21
+#: send_invite.html:21
+#: signed_in_home.html:21
 msgid "Account Settings"
 msgstr ""
 
-#: src/app/views/send_invite.html:73
+#: send_invite.html:73
 msgid "Add personalized message here!"
 msgstr ""
 
-#: src/app/views/send_invite.html:71
+#: send_invite.html:71
 msgid "Add Personalized Message:"
 msgstr ""
 
-#: src/app/views/account_settings.html:53
+#: account_settings.html:53
 msgid "Change Password"
 msgstr ""
 
-#: src/app/views/contacts_activity.html:45
+#: contacts_activity.html:45
 msgid "Chris C."
 msgstr ""
 
-#: src/app/views/confirm_invite.html:44
+#: confirm_invite.html:44
 msgid "Confirm"
 msgstr ""
 
-#: src/app/views/confirm_invite.html:38
+#: confirm_invite.html:38
 msgid "Confirm Invitation"
 msgstr ""
 
-#: src/app/views/account_settings.html:57
+#: account_settings.html:57
 msgid "Confirm New Password"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:42
+#: signed_in_home.html:42
 msgid ""
 "Congratulations, by the way, on beginning a relationship with God. When you asked Jesus into your life, you began the \n"
 "      most valuable relationship a person could have."
 msgstr ""
 
-#: src/app/main/main.html:18
-#: src/index.html:42
+#: index.html:42
+#: main.html:18
 msgid "Contact"
 msgstr ""
 
-#: src/app/views/about.html:23
-#: src/app/views/account_settings.html:23
-#: src/app/views/confirm_invite.html:23
-#: src/app/views/contact_us.html:23
-#: src/app/views/contact_us.html:38
-#: src/app/views/contacts_activity.html:23
-#: src/app/views/resources.html:23
-#: src/app/views/send_invite.html:23
-#: src/app/views/signed_in_home.html:23
+#: about.html:23
+#: account_settings.html:23
+#: confirm_invite.html:23
+#: contact_us.html:23
+#: contact_us.html:38
+#: contacts_activity.html:23
+#: resources.html:23
+#: send_invite.html:23
+#: signed_in_home.html:23
 msgid "Contact Us"
 msgstr ""
 
-#: src/app/views/contacts_activity.html:38
+#: contacts_activity.html:38
 msgid "Contact's Activity"
 msgstr ""
 
-#: src/app/views/about.html:15
-#: src/app/views/account_settings.html:15
-#: src/app/views/confirm_invite.html:15
-#: src/app/views/contact_us.html:15
-#: src/app/views/contacts_activity.html:15
-#: src/app/views/resources.html:15
-#: src/app/views/send_invite.html:15
-#: src/app/views/signed_in_home.html:15
+#: about.html:15
+#: account_settings.html:15
+#: confirm_invite.html:15
+#: contact_us.html:15
+#: contacts_activity.html:15
+#: resources.html:15
+#: send_invite.html:15
+#: signed_in_home.html:15
 msgid "Contacts' Activity"
 msgstr ""
 
-#: src/index.html:45
+#: index.html:45
 msgid "Cru &copy; 2015"
 msgstr ""
 
-#: src/app/views/send_invite.html:77
+#: send_invite.html:77
 msgid "Customize Intro Message"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:71
+#: signed_in_home.html:71
 msgid "Does it rely on your sincerity? Or what you said inyour prayer? Or how you feel?"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:47
+#: signed_in_home.html:47
 msgid "Edit This Section"
 msgstr ""
 
-#: src/app/views/send_invite.html:56
+#: send_invite.html:56
 msgid "Email:"
 msgstr ""
 
-#: src/app/views/contact_us.html:47
-#: src/app/views/send_invite.html:58
+#: contact_us.html:47
+#: send_invite.html:58
 msgid "email@example.com"
 msgstr ""
 
-#: src/app/views/send_invite.html:65
+#: send_invite.html:65
 msgid "English"
 msgstr ""
 
-#: src/app/views/send_invite.html:46
+#: send_invite.html:46
 msgid "First Name"
 msgstr ""
 
-#: src/app/views/send_invite.html:44
+#: send_invite.html:44
 msgid "First Name:"
 msgstr ""
 
-#: src/app/main/main.html:32
+#: main.html:32
 msgid "Help New Believers Grow"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:59
+#: signed_in_home.html:59
 msgid "Here's the first thing I noticed about God: God is invisible. (Impressed, aren't you?) But actually, this was an issue."
 msgstr ""
 
-#: src/index.html:34
+#: index.html:34
 msgid "Home"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:68
+#: signed_in_home.html:68
 msgid "How do you know that he really entered your life?"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:82
+#: signed_in_home.html:82
 msgid "http://www.startingwithgod.com/new-life/am-i-christian   (You might want to write down one or two of the sentences from the Bible that are mentioned in this article. And maybe put that paper on your desk or nightstand to look at again later.)"
 msgstr ""
 
-#: src/app/views/send_invite.html:66
+#: send_invite.html:66
 msgid "Hungarian"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:64
+#: signed_in_home.html:64
 msgid "I mean, when you asked Jesus to come into your life, how do you really know that he's there? You can't see him."
 msgstr ""
 
-#: src/app/views/signed_in_home.html:84
+#: signed_in_home.html:84
 msgid "If you have any questions, we are happy to chat with you. Just email me here:"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:56
+#: signed_in_home.html:56
 msgid ""
 "In my mind, I was simply acknowledging God's existence. As God, it seemed to me, he had a right to influence \n"
 "            my life."
 msgstr ""
 
-#: src/app/main/main.html:33
+#: main.html:33
 msgid "Invite them to a personal email series from you. Every few days, they will learn from you important truths about their new relationship with God."
 msgstr ""
 
-#: src/app/views/contacts_activity.html:55
+#: contacts_activity.html:55
 msgid "Invited: 10 Days Ago"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:52
+#: signed_in_home.html:52
 msgid "It also seemed absolutely right to do."
 msgstr ""
 
-#: src/app/views/contacts_activity.html:45
+#: contacts_activity.html:45
 msgid "Last Activity 1 Day Ago"
 msgstr ""
 
-#: src/app/views/contacts_activity.html:60
+#: contacts_activity.html:60
 msgid "Last Activity 12 Days Ago"
 msgstr ""
 
-#: src/app/views/contacts_activity.html:50
+#: contacts_activity.html:50
 msgid "Last Activity 9 Days Ago"
 msgstr ""
 
-#: src/app/views/send_invite.html:52
+#: send_invite.html:52
 msgid "Last Name"
 msgstr ""
 
-#: src/app/views/send_invite.html:50
+#: send_invite.html:50
 msgid "Last Name:"
 msgstr ""
 
-#: src/app/views/account_settings.html:54
+#: account_settings.html:54
 msgid "Leave blank if you don't want to change password"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:38
+#: signed_in_home.html:38
 msgid "Lesson # 1 - Is God in my life now?"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:34
+#: signed_in_home.html:34
 msgid "Lesson 1"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:34
+#: signed_in_home.html:34
 msgid "Lesson 2"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:34
+#: signed_in_home.html:34
 msgid "Lesson 3"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:34
+#: signed_in_home.html:34
 msgid "Lesson 4"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:34
+#: signed_in_home.html:34
 msgid "Lesson 5"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:34
+#: signed_in_home.html:34
 msgid "Lesson 6"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:34
+#: signed_in_home.html:34
 msgid "Lesson 7"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:34
+#: signed_in_home.html:34
 msgid "Lesson 8"
 msgstr ""
 
-#: src/app/views/resources.html:41
+#: resources.html:41
 msgid "List Resources Here"
 msgstr ""
 
-#: src/app/main/main.html:11
-#: src/app/views/about.html:11
-#: src/app/views/account_settings.html:11
-#: src/app/views/confirm_invite.html:11
-#: src/app/views/contact_us.html:11
-#: src/app/views/contacts_activity.html:11
-#: src/app/views/resources.html:11
-#: src/app/views/send_invite.html:11
-#: src/app/views/signed_in_home.html:11
-#: src/index.html:31
+#: about.html:11
+#: account_settings.html:11
+#: confirm_invite.html:11
+#: contact_us.html:11
+#: contacts_activity.html:11
+#: index.html:31
+#: main.html:11
+#: resources.html:11
+#: send_invite.html:11
+#: signed_in_home.html:11
 msgid "Me"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:54
+#: signed_in_home.html:54
 msgid "My prayer was brief. \"Ok, you win. I ask you to come into my life. You may do with it whatever you want.\""
 msgstr ""
 
-#: src/app/views/signed_in_home.html:74
+#: signed_in_home.html:74
 msgid "No. None of these."
 msgstr ""
 
-#: src/app/views/contacts_activity.html:46
-#: src/app/views/contacts_activity.html:51
+#: contacts_activity.html:46
+#: contacts_activity.html:51
 msgid "Opened"
 msgstr ""
 
-#: src/app/views/contacts_activity.html:50
+#: contacts_activity.html:50
 msgid "Paulo P."
 msgstr ""
 
-#: src/app/views/contacts_activity.html:47
-#: src/app/views/contacts_activity.html:52
+#: contacts_activity.html:47
+#: contacts_activity.html:52
 msgid "Received"
 msgstr ""
 
-#: src/app/views/contacts_activity.html:57
+#: contacts_activity.html:57
 msgid "Reinvite"
 msgstr ""
 
-#: src/app/views/contacts_activity.html:62
+#: contacts_activity.html:62
 msgid "Remove"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:104
+#: signed_in_home.html:104
 msgid "Reset to Defaults"
 msgstr ""
 
-#: src/app/main/main.html:16
-#: src/app/views/about.html:16
-#: src/app/views/account_settings.html:16
-#: src/app/views/confirm_invite.html:16
-#: src/app/views/contact_us.html:16
-#: src/app/views/contacts_activity.html:16
-#: src/app/views/resources.html:16
-#: src/app/views/resources.html:37
-#: src/app/views/send_invite.html:16
-#: src/app/views/signed_in_home.html:16
-#: src/index.html:38
+#: about.html:16
+#: account_settings.html:16
+#: confirm_invite.html:16
+#: contact_us.html:16
+#: contacts_activity.html:16
+#: index.html:38
+#: main.html:16
+#: resources.html:16
+#: resources.html:37
+#: send_invite.html:16
+#: signed_in_home.html:16
 msgid "Resources"
 msgstr ""
 
-#: src/app/views/resources.html:38
+#: resources.html:38
 msgid "Resources to help...."
 msgstr ""
 
-#: src/app/views/signed_in_home.html:92
+#: signed_in_home.html:92
 msgid "Salutation:"
 msgstr ""
 
-#: src/app/views/contacts_activity.html:60
+#: contacts_activity.html:60
 msgid "Samantha S."
 msgstr ""
 
-#: src/app/views/account_settings.html:44
+#: main.html:39
+msgid "Sample Email Here"
+msgstr ""
+
+#: account_settings.html:44
 msgid "Sarah"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:98
+#: signed_in_home.html:98
 msgid "Sarah S."
 msgstr ""
 
-#: src/app/views/about.html:19
-#: src/app/views/account_settings.html:19
-#: src/app/views/confirm_invite.html:19
-#: src/app/views/contact_us.html:19
-#: src/app/views/contacts_activity.html:19
-#: src/app/views/resources.html:19
-#: src/app/views/send_invite.html:19
-#: src/app/views/signed_in_home.html:19
+#: about.html:19
+#: account_settings.html:19
+#: confirm_invite.html:19
+#: contact_us.html:19
+#: contacts_activity.html:19
+#: resources.html:19
+#: send_invite.html:19
+#: signed_in_home.html:19
 msgid "Sarah Student"
 msgstr ""
 
-#: src/app/views/account_settings.html:50
-#: src/app/views/signed_in_home.html:88
+#: account_settings.html:50
+#: signed_in_home.html:88
 msgid "sarah.student@school.com"
 msgstr ""
 
-#: src/app/views/account_settings.html:61
+#: account_settings.html:61
 msgid "Save"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:103
+#: signed_in_home.html:103
 msgid "Save Changes"
 msgstr ""
 
-#: src/app/main/main.html:38
+#: main.html:41
 msgid "See Sample Email"
 msgstr ""
 
-#: src/app/views/send_invite.html:62
+#: send_invite.html:62
 msgid "Select Email Language:"
 msgstr ""
 
-#: src/app/views/send_invite.html:38
-#: src/app/views/send_invite.html:81
+#: send_invite.html:38
+#: send_invite.html:81
 msgid "Send Invitation"
 msgstr ""
 
-#: src/app/views/contact_us.html:56
+#: contact_us.html:56
 msgid "Send Message"
 msgstr ""
 
-#: src/app/main/main.html:19
+#: main.html:19
 msgid "Sign In"
 msgstr ""
 
-#: src/app/views/about.html:24
-#: src/app/views/account_settings.html:24
-#: src/app/views/confirm_invite.html:24
-#: src/app/views/contact_us.html:24
-#: src/app/views/contacts_activity.html:24
-#: src/app/views/resources.html:24
-#: src/app/views/send_invite.html:24
-#: src/app/views/signed_in_home.html:24
+#: about.html:24
+#: account_settings.html:24
+#: confirm_invite.html:24
+#: contact_us.html:24
+#: contacts_activity.html:24
+#: resources.html:24
+#: send_invite.html:24
+#: signed_in_home.html:24
 msgid "Sign Out"
 msgstr ""
 
-#: src/app/main/main.html:15
-#: src/index.html:36
+#: index.html:36
+#: main.html:15
 msgid "Sign Up"
 msgstr ""
 
-#: src/app/main/main.html:41
+#: main.html:44
 msgid "Sign Up Widget or Redirect"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:97
+#: signed_in_home.html:97
 msgid "Signature:"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:93
+#: signed_in_home.html:93
 msgid "Sincerely,"
 msgstr ""
 
-#: src/app/views/account_settings.html:47
+#: account_settings.html:47
 msgid "Student"
 msgstr ""
 
-#: src/app/main/main.html:36
+#: main.html:36
 msgid "The emails are already there for you. You edit sections to be true of your own personal life. Then you simply invite people to your personal series. Each email is automatically delivered to them, over days, from you."
 msgstr ""
 
-#: src/app/views/signed_in_home.html:48
+#: signed_in_home.html:48
 msgid ""
 "The night that I asked Jesus into my life, I knew it was a big decision. I had been a skeptic/atheist for years. To \n"
 "            speak out loud, into the air, and talk to God felt monumental."
 msgstr ""
 
-#: src/app/views/signed_in_home.html:80
+#: signed_in_home.html:80
 msgid "This article will explain how you can be sure that Jesus is in your life -- and what that means!"
 msgstr ""
 
-#: src/app/views/about.html:38
+#: about.html:38
 msgid ""
 "This builder allows you to invite people to receive an email series from you.\n"
 "    After they signup, emails will be sent from you, in an automated, timed way. They will be sent from your email address. And people who sign up will be able to reply to you with their thoughts or questions.\n"
@@ -474,43 +478,43 @@ msgid ""
 "    You will have their email address and will be able to reach out to them, to see if they have any questions, or perhaps invite them to meet with you or come to an event."
 msgstr ""
 
-#: src/app/views/contact_us.html:44
+#: contact_us.html:44
 msgid "Username"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:39
+#: signed_in_home.html:39
 msgid "Welcome to your first email, in this 7-part series."
 msgstr ""
 
-#: src/app/main/main.html:11
-#: src/app/views/about.html:11
-#: src/app/views/account_settings.html:11
-#: src/app/views/confirm_invite.html:11
-#: src/app/views/contact_us.html:11
-#: src/app/views/contacts_activity.html:11
-#: src/app/views/resources.html:11
-#: src/app/views/send_invite.html:11
-#: src/app/views/signed_in_home.html:11
-#: src/index.html:31
+#: about.html:11
+#: account_settings.html:11
+#: confirm_invite.html:11
+#: contact_us.html:11
+#: contacts_activity.html:11
+#: index.html:31
+#: main.html:11
+#: resources.html:11
+#: send_invite.html:11
+#: signed_in_home.html:11
 msgid "You"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:37
+#: signed_in_home.html:37
 msgid "You Are Currently Editing Lesson 1 of 8"
 msgstr ""
 
-#: src/app/views/signed_in_home.html:77
+#: signed_in_home.html:77
 msgid "You have a relationship with God now, because he offered it to you. You simply responded to him."
 msgstr ""
 
-#: src/app/views/signed_in_home.html:87
+#: signed_in_home.html:87
 msgid "Your Email Address:"
 msgstr ""
 
-#: src/app/views/contact_us.html:51
+#: contact_us.html:51
 msgid "Your Message"
 msgstr ""
 
-#: src/app/main/main.html:35
+#: main.html:35
 msgid "Your Personal Version"
 msgstr ""
