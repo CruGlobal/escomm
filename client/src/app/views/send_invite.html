@@ -39,30 +39,30 @@
                         Send Invitation
                     </h1>
                     <div class="main-content">
-                        <form class="form-horizontal" role="form" ng-submit="sendInvite()">
+                        <form class="form-horizontal" role="form" ng-submit="sendInvite()" name="form.theForm">
                           <div class="form-group">
                             <label class="control-label col-sm-2" for="firstName" translate>First Name:</label>
                             <div class="col-sm-10">
-                              <input type="text" class="form-control" ng-model="formData.firstName" id="firstName" placeholder="{{'First Name'|translate}}">
+                              <input type="text" name="form.firstName" class="form-control" ng-model="firstName" id="firstName" placeholder="{{'First Name'|translate}}">
                             </div>
                           </div>
                           <div class="form-group">
                             <label class="control-label col-sm-2" for="lastName" translate>Last Name:</label>
                             <div class="col-sm-10">
-                              <input type="text" class="form-control" ng-model="formData.lastName" id="lastName" placeholder="{{'Last Name'|translate}}">
+                              <input type="text" class="form-control" ng-model="lastName" id="lastName" placeholder="{{'Last Name'|translate}}">
                             </div>
                           </div>
                           <div class="form-group">
                             <label class="control-label col-sm-2" for="email" translate>Email:</label>
                             <div class="col-sm-10">
-                              <input type="email" class="form-control" ng-model="formData.emailAddress" id="email" placeholder="{{'email@example.com'|translate}}">
+                              <input type="email" class="form-control" ng-model="emailAddress" id="email" placeholder="{{'email@example.com'|translate}}">
                             </div>
                           </div>
                           <div class="form-group">
                             <label class="control-label col-sm-2" for="language" translate>Select Email Language:</label>
                             <div class="col-sm-10">
-                              <select class="form-control ng-model="formData.emailLanguage" ">
-                                <option translate>English</option>
+                              <select class="form-control" ng-model="emailLanguage">
+                                <option selected translate>English</option>
                                 <option translate>Hungarian</option>
                                </select>
                             </div>
@@ -70,7 +70,7 @@
                           <div class="form-group" ng-show="showTextField">
                             <label class="control-label col-sm-2" for="language" translate>Add Personalized Message:</label>
                             <div class="col-sm-10">
-                              <textarea class="form-control" rows="3" ng-model="formData.customMessage"  placeholder="{{'Add personalized message here!'|translate}}"></textarea>
+                              <textarea class="form-control" rows="3" ng-model="customMessage"  placeholder="{{'Add personalized message here!'|translate}}"></textarea>
                             </div>
                           </div>
                           <div style="text-decoration: underline; text-align: right;">

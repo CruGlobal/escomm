@@ -1,24 +1,18 @@
 angular.module('escomm')
 .controller('MainCtrl', function ($scope, $http) {
+  $scope.FormData = {};
   $scope.sendInvite = function() {
-      console.log ("sending");
-      $scope.formData.firstName = "";
-      $scope.formData.lastName = "";
-      $scope.formData.emailAddress = "";
-      $scope.formData.emailLanguage = "";
-      $scope.formData.customMessage = "";
+    $scope.FormData.first_name = $scope.firstName;
+    $scope.FormData.last_name = $scope.lastName;
+    $scope.FormData.email_address = $scope.emailAddress;
+    $scope.FormData.email_language = $scope.emailLanguage;
+    $scope.FormData.custom_message = $scope.customMessage;
 
-      var data = $.param({
-          json: JSON.stringify({
-              first_name: $scope.formData.firstName,
-              last_name: $scope.formData.lastName,
-              email_address: $scope.formData.email_address,
-              email_language: $scope.formData.email_language,
-              custom_message: $scope.formData.customMessage
-          })
-      });
-      $http.post("https://crucore.com/api.php?a=invite", data).success(function(data, status) {
-          $scope.hello = data;
-      })
+    console.log(angular.toJson($scope.FormData));
+
+    $http.post("https://crucore.com/api.php?a=invite", angular.toJson($scope.FormData)).success(function(data, status) {
+      console.log("Success")
+    })
   }
 })
+
