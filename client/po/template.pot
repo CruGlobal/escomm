@@ -9,13 +9,14 @@ msgstr ""
 #: confirm_invite.html:17
 #: contact_us.html:17
 #: contacts_activity.html:17
+#: contacts_activity.html:45
 #: resources.html:17
 #: send_invite.html:17
 #: signed_in_home.html:17
 msgid "+ New Invitation"
 msgstr ""
 
-#: contacts_activity.html:46
+#: contacts_activity.html:49
 msgid "100%"
 msgstr ""
 
@@ -32,19 +33,19 @@ msgstr ""
 msgid "2"
 msgstr ""
 
-#: contacts_activity.html:52
+#: contacts_activity.html:55
 msgid "2/8"
 msgstr ""
 
-#: contacts_activity.html:47
+#: contacts_activity.html:50
 msgid "5/8"
 msgstr ""
 
-#: contacts_activity.html:51
+#: contacts_activity.html:54
 msgid "50%"
 msgstr ""
 
-#: contacts_activity.html:55
+#: contacts_activity.html:58
 msgid "Abigail A."
 msgstr ""
 
@@ -77,11 +78,11 @@ msgstr ""
 msgid "Account Settings"
 msgstr ""
 
-#: send_invite.html:73
+#: send_invite.html:74
 msgid "Add personalized message here!"
 msgstr ""
 
-#: send_invite.html:71
+#: send_invite.html:72
 msgid "Add Personalized Message:"
 msgstr ""
 
@@ -89,7 +90,7 @@ msgstr ""
 msgid "Change Password"
 msgstr ""
 
-#: contacts_activity.html:45
+#: contacts_activity.html:48
 msgid "Chris C."
 msgstr ""
 
@@ -128,7 +129,7 @@ msgstr ""
 msgid "Contact Us"
 msgstr ""
 
-#: contacts_activity.html:38
+#: contacts_activity.html:40
 msgid "Contact's Activity"
 msgstr ""
 
@@ -147,7 +148,7 @@ msgstr ""
 msgid "Cru &copy; 2015"
 msgstr ""
 
-#: send_invite.html:77
+#: send_invite.html:78
 msgid "Customize Intro Message"
 msgstr ""
 
@@ -159,24 +160,24 @@ msgstr ""
 msgid "Edit This Section"
 msgstr ""
 
-#: send_invite.html:56
+#: send_invite.html:57
 msgid "Email:"
 msgstr ""
 
 #: contact_us.html:47
-#: send_invite.html:58
+#: send_invite.html:59
 msgid "email@example.com"
 msgstr ""
 
-#: send_invite.html:65
+#: send_invite.html:66
 msgid "English"
 msgstr ""
 
-#: send_invite.html:46
+#: send_invite.html:47
 msgid "First Name"
 msgstr ""
 
-#: send_invite.html:44
+#: send_invite.html:45
 msgid "First Name:"
 msgstr ""
 
@@ -200,7 +201,7 @@ msgstr ""
 msgid "http://www.startingwithgod.com/new-life/am-i-christian   (You might want to write down one or two of the sentences from the Bible that are mentioned in this article. And maybe put that paper on your desk or nightstand to look at again later.)"
 msgstr ""
 
-#: send_invite.html:66
+#: send_invite.html:67
 msgid "Hungarian"
 msgstr ""
 
@@ -222,7 +223,7 @@ msgstr ""
 msgid "Invite them to a personal email series from you. Every few days, they will learn from you important truths about their new relationship with God."
 msgstr ""
 
-#: contacts_activity.html:55
+#: contacts_activity.html:58
 msgid "Invited: 10 Days Ago"
 msgstr ""
 
@@ -230,23 +231,23 @@ msgstr ""
 msgid "It also seemed absolutely right to do."
 msgstr ""
 
-#: contacts_activity.html:45
+#: contacts_activity.html:48
 msgid "Last Activity 1 Day Ago"
 msgstr ""
 
-#: contacts_activity.html:60
+#: contacts_activity.html:63
 msgid "Last Activity 12 Days Ago"
 msgstr ""
 
-#: contacts_activity.html:50
+#: contacts_activity.html:53
 msgid "Last Activity 9 Days Ago"
 msgstr ""
 
-#: send_invite.html:52
+#: send_invite.html:53
 msgid "Last Name"
 msgstr ""
 
-#: send_invite.html:50
+#: send_invite.html:51
 msgid "Last Name:"
 msgstr ""
 
@@ -315,25 +316,25 @@ msgstr ""
 msgid "No. None of these."
 msgstr ""
 
-#: contacts_activity.html:46
-#: contacts_activity.html:51
+#: contacts_activity.html:49
+#: contacts_activity.html:54
 msgid "Opened"
 msgstr ""
 
-#: contacts_activity.html:50
+#: contacts_activity.html:53
 msgid "Paulo P."
 msgstr ""
 
-#: contacts_activity.html:47
-#: contacts_activity.html:52
+#: contacts_activity.html:50
+#: contacts_activity.html:55
 msgid "Received"
 msgstr ""
 
-#: contacts_activity.html:57
+#: contacts_activity.html:60
 msgid "Reinvite"
 msgstr ""
 
-#: contacts_activity.html:62
+#: contacts_activity.html:65
 msgid "Remove"
 msgstr ""
 
@@ -363,7 +364,7 @@ msgstr ""
 msgid "Salutation:"
 msgstr ""
 
-#: contacts_activity.html:60
+#: contacts_activity.html:63
 msgid "Samantha S."
 msgstr ""
 
@@ -407,12 +408,12 @@ msgstr ""
 msgid "See Sample Email"
 msgstr ""
 
-#: send_invite.html:62
+#: send_invite.html:63
 msgid "Select Email Language:"
 msgstr ""
 
-#: send_invite.html:38
-#: send_invite.html:81
+#: send_invite.html:39
+#: send_invite.html:82
 msgid "Send Invitation"
 msgstr ""
 
