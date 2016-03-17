@@ -36,12 +36,6 @@ gulp.task('translations', function () {
     .pipe(gulp.dest('src/app/translations'));
 });
 
-// Copies fonts to /dist (for Bootstrap glyphicons)
-gulp.task('fonts', function() {
-    return gulp.src('./node_modules/bootstrap/fonts/*')
-        .pipe(gulp.dest('./dist/fonts'))
-});
-
 /**
  *  Default task clean temporaries directories and launch the
  *  main optimization build task
@@ -50,4 +44,10 @@ gulp.task('default', ['clean'], function () {
   gulp.start('pot');
   gulp.start('translations');
   gulp.start('build');
+});
+
+// Copies fonts to /dist (for Bootstrap glyphicons)
+gulp.task('fonts', function() {
+    return gulp.src('./node_modules/bootstrap/fonts/*')
+        .pipe(gulp.dest('./dist/fonts'))
 });
