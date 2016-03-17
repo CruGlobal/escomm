@@ -1,5 +1,5 @@
 angular.module('escomm')
-.controller('MainCtrl', function ($scope, $http) {
+.controller('MainCtrl', function ($scope, $http, $location) {
   $scope.FormData = {};
   $scope.sendInvite = function() {
     $scope.FormData.first_name = $scope.firstName;
@@ -12,6 +12,7 @@ angular.module('escomm')
 
     $http.post("https://crucore.com/api.php?a=invite", angular.toJson($scope.FormData)).success(function(data, status) {
       console.log("Success")
+      $location.path( '/contacts_activity' );
     })
   }
 })
