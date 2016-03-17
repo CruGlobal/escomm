@@ -129,10 +129,6 @@ msgstr ""
 msgid "Contact Us"
 msgstr ""
 
-#: contacts_activity.html:40
-msgid "Contact's Activity"
-msgstr ""
-
 #: about.html:15
 #: account_settings.html:15
 #: confirm_invite.html:15
@@ -179,6 +175,10 @@ msgstr ""
 
 #: send_invite.html:45
 msgid "First Name:"
+msgstr ""
+
+#: contacts_activity.html:40
+msgid "Friends' Activity"
 msgstr ""
 
 #: main.html:32

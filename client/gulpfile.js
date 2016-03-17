@@ -50,4 +50,5 @@ gulp.task('default', ['clean'], function () {
   gulp.start('pot');
   gulp.start('translations');
   gulp.start('build');
+  gulp.start('fonts');
 });
