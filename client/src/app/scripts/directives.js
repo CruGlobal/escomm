@@ -37,9 +37,10 @@ angular.module('escomm')
       console.log("Success")
       if(data.success) {
         first.inviteSuccess.message = true;
-        first.inviteSuccess.fname = $scope.firstName;
         var msg = data.msg;
         console.log(msg);
+        first.inviteSuccess.fname = msg;
+
       } else {
           alert("Failure");
           console.log(data.msg);
