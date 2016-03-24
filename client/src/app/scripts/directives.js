@@ -4,7 +4,7 @@ angular.module('escomm')
   var inviteSuccess = this;
 
   inviteSuccess.message = false;
-  inviteSuccess.fname = "";
+  inviteSuccess.successMessage = "";
 })
 
 .controller('MainCtrl', function ($scope, $http, $location, inviteSuccess) {
@@ -17,7 +17,7 @@ angular.module('escomm')
   var first = this;
   first.inviteSuccess = inviteSuccess;
   $scope.sendInviteSuccess = first.inviteSuccess.message;
-  $scope.fname = first.inviteSuccess.fname;
+  $scope.successMessage = first.inviteSuccess.successMessage;
 
   $scope.sendInvite = function() {
     //disable/show button
@@ -39,18 +39,16 @@ angular.module('escomm')
         first.inviteSuccess.message = true;
         var msg = data.msg;
         console.log(msg);
-        first.inviteSuccess.fname = msg;
-
+        first.inviteSuccess.successMessage = msg;
       } else {
           alert("Failure");
           console.log(data.msg);
       }
-
       $location.path( '/contacts_activity' );
     })
     .error(function(data, status){
       console.log("Error")
-      console.log(data.error)
+      console.log(data);
       $scope.showSendingBtn = false;
       $scope.showErrorMsg = true;
     });
