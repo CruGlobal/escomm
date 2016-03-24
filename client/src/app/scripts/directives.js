@@ -20,6 +20,7 @@ angular.module('escomm')
   first.inviteSuccess = inviteSuccess;
   $scope.sendInviteSuccess = first.inviteSuccess.message;
   $scope.successMessage = first.inviteSuccess.successMessage;
+  console.log(first.inviteSuccess.message);
 
   $scope.sendInviteSuccess = first.inviteSuccess.showError;
   $scope.successMessage = first.inviteSuccess.failureMessage;
@@ -36,8 +37,7 @@ angular.module('escomm')
     $scope.FormData.email_language = $scope.emailLanguage;
     $scope.FormData.custom_message = $scope.customMessage;
 
-    console.log(angular.toJson($scope.FormData));
-
+    //https://crucore.com/api.php?a=invite
     $http.post("https://crucore.com/api.php?a=invite", angular.toJson($scope.FormData)).success(function(data, status) {
       console.log("Success")
       if(data.success) {
