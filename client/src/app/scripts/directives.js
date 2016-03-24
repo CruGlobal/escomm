@@ -5,6 +5,8 @@ angular.module('escomm')
 
   inviteSuccess.message = false;
   inviteSuccess.successMessage = "";
+  inviteSuccess.showError = false;
+  inviteSuccess.failureMessage = "";
 })
 
 .controller('MainCtrl', function ($scope, $http, $location, inviteSuccess) {
@@ -18,6 +20,9 @@ angular.module('escomm')
   first.inviteSuccess = inviteSuccess;
   $scope.sendInviteSuccess = first.inviteSuccess.message;
   $scope.successMessage = first.inviteSuccess.successMessage;
+
+  $scope.sendInviteSuccess = first.inviteSuccess.showError;
+  $scope.successMessage = first.inviteSuccess.failureMessage;
 
   $scope.sendInvite = function() {
     //disable/show button
@@ -36,21 +41,24 @@ angular.module('escomm')
     $http.post("https://crucore.com/api.php?a=invite", angular.toJson($scope.FormData)).success(function(data, status) {
       console.log("Success")
       if(data.success) {
-        first.inviteSuccess.message = true;
         var msg = data.msg;
         console.log(msg);
+        first.inviteSuccess.message = true;
         first.inviteSuccess.successMessage = msg;
       } else {
-          alert("Failure");
-          console.log(data.msg);
+          var msg = data.msg;
+          console.log(msg);
+          first.inviteSuccess.showError = true;
+          first.inviteSuccess.failureMessage = msg;
+
       }
       $location.path( '/contacts_activity' );
-    })
-    .error(function(data, status){
-      console.log("Error")
-      console.log(data);
-      $scope.showSendingBtn = false;
-      $scope.showErrorMsg = true;
     });
+    // .error(function(data, status){
+    //   console.log("Error")
+    //   console.log(data);
+    //   $scope.showSendingBtn = false;
+    //   $scope.showErrorMsg = true;
+    // });
   }
 })
