@@ -22,8 +22,8 @@ angular.module('escomm')
   $scope.successMessage = first.inviteSuccess.successMessage;
   console.log(first.inviteSuccess.message);
 
-  $scope.sendInviteSuccess = first.inviteSuccess.showError;
-  $scope.successMessage = first.inviteSuccess.failureMessage;
+  $scope.showError = first.inviteSuccess.showError;
+  $scope.failureMessage = first.inviteSuccess.failureMessage;
 
   $scope.sendInvite = function() {
     //disable/show button
