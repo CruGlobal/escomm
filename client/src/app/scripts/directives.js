@@ -35,14 +35,21 @@ angular.module('escomm')
 
     $http.post("https://crucore.com/api.php?a=invite", angular.toJson($scope.FormData)).success(function(data, status) {
       console.log("Success")
-      
-      first.inviteSuccess.message = true;
-      first.inviteSuccess.fname = $scope.firstName;
-      console.log (first.inviteSuccess.fname);
+      if(data.success) {
+        first.inviteSuccess.message = true;
+        first.inviteSuccess.fname = $scope.firstName;
+        var msg = data.msg;
+        console.log(msg);
+      } else {
+          alert("Failure");
+          console.log(data.msg);
+      }
+
       $location.path( '/contacts_activity' );
     })
     .error(function(data, status){
       console.log("Error")
+      console.log(data.error)
       $scope.showSendingBtn = false;
       $scope.showErrorMsg = true;
     });
