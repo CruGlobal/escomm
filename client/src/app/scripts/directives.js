@@ -14,6 +14,7 @@ angular.module('escomm')
 
   $http.post("https://crucore.com/api.php?a=activity", ("ello")).success(function(data, status) {
     console.log("Success")
+    var first = this;
     if(data.success) {
       var msg = data.msg;
       console.log(msg);
