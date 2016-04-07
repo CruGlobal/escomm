@@ -10,21 +10,14 @@ angular.module('escomm')
 })
 
 .controller('ContactsCtrl', function ($scope, $http, $location, inviteSuccess) {
-  console.log("ContactsCtrl");
 
-  $http.post("https://crucore.com/api.php?a=activity", ("ello")).success(function(data, status) {
-    console.log("Success")
-    var first = this;
+  $http.post("https://crucore.com/api.php?a=activity&i=ssk", ("")).success(function(data, status) {
     if(data.success) {
       var msg = data.msg;
       console.log(msg);
-      first.inviteSuccess.message = true;
-      first.inviteSuccess.successMessage = msg;
     } else {
         var msg = data.msg;
         console.log(msg);
-        first.inviteSuccess.showError = true;
-        first.inviteSuccess.failureMessage = msg;
     }
     $location.path( '/contacts_activity' );
   });
@@ -41,7 +34,7 @@ angular.module('escomm')
   first.inviteSuccess = inviteSuccess;
   $scope.sendInviteSuccess = first.inviteSuccess.message;
   $scope.successMessage = first.inviteSuccess.successMessage;
-  console.log(first.inviteSuccess.message);
+  //console.log(first.inviteSuccess.message);
 
   $scope.showError = first.inviteSuccess.showError;
   $scope.failureMessage = first.inviteSuccess.failureMessage;
@@ -60,7 +53,6 @@ angular.module('escomm')
 
     //https://crucore.com/api.php?a=invite
     $http.post("https://crucore.com/api.php?a=invite", angular.toJson($scope.FormData)).success(function(data, status) {
-      console.log("Success")
       if(data.success) {
         var msg = data.msg;
         console.log(msg);
