@@ -11,6 +11,22 @@ angular.module('escomm')
 
 .controller('ContactsCtrl', function ($scope, $http, $location, inviteSuccess) {
   console.log("ContactsCtrl");
+
+  $http.post("https://crucore.com/api.php?a=activity", ("ello")).success(function(data, status) {
+    console.log("Success")
+    if(data.success) {
+      var msg = data.msg;
+      console.log(msg);
+      first.inviteSuccess.message = true;
+      first.inviteSuccess.successMessage = msg;
+    } else {
+        var msg = data.msg;
+        console.log(msg);
+        first.inviteSuccess.showError = true;
+        first.inviteSuccess.failureMessage = msg;
+    }
+    $location.path( '/contacts_activity' );
+  });
 })
 
 .controller('MainCtrl', function ($scope, $http, $location, inviteSuccess) {
