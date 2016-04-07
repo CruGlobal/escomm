@@ -30,3 +30,21 @@ class MainCtrl
     
 angular.module("escomm").controller "MainCtrl", MainCtrl
 MainCtrl.$inject = ["$scope", "webService"]
+
+
+'use strict'
+
+class ContactsCtrl
+
+  constructor: (@$scope, @webService) ->
+    @setup()
+
+  setup: ->
+    @$scope.awesomeThings = [
+      'HTML5 Boilerplate'
+      'AngularJS'
+      'Karma'
+    ]
+    
+angular.module("escomm").controller "ContactsCtrl", MainCtrl
+ContactsCtrl.$inject = ["$scope", "webService"]

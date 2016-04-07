@@ -9,6 +9,10 @@ angular.module('escomm')
   inviteSuccess.failureMessage = "";
 })
 
+.controller('ContactsCtrl', function ($scope, $http, $location, inviteSuccess) {
+  console.log("ContactsCtrl");
+})
+
 .controller('MainCtrl', function ($scope, $http, $location, inviteSuccess) {
 
   $scope.FormData = {};
@@ -50,15 +54,8 @@ angular.module('escomm')
           console.log(msg);
           first.inviteSuccess.showError = true;
           first.inviteSuccess.failureMessage = msg;
-
       }
       $location.path( '/contacts_activity' );
     });
-    // .error(function(data, status){
-    //   console.log("Error")
-    //   console.log(data);
-    //   $scope.showSendingBtn = false;
-    //   $scope.showErrorMsg = true;
-    // });
   }
 })

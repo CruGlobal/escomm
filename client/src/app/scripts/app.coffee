@@ -1,3 +1,7 @@
+ContactsCtrl = ($scope) ->
+  console.log 'contactsCtrl'
+  return
+
 angular.module 'escomm'
   .factory 'myInterceptor', [ ->
     myInterceptor =

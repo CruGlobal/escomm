@@ -11,5 +11,5 @@ angular.module 'escomm'
       .when('/contact_us', {templateUrl: 'app/views/contact_us.html', controller: 'MainCtrl'})
       .when('/confirm_invite', {templateUrl: 'app/views/confirm_invite.html', controller: 'MainCtrl'})
       .when('/account_settings', {templateUrl: 'app/views/account_settings.html', controller: 'MainCtrl'})
-      .when('/contacts_activity', {templateUrl: 'app/views/contacts_activity.html', controller: 'MainCtrl'})
+      .when('/contacts_activity', {templateUrl: 'app/views/contacts_activity.html', controller: 'ContactsCtrl'})
       .when('/', {templateUrl: 'app/main/main.html', controller: 'MainCtrl'})
