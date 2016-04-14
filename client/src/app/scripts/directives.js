@@ -10,20 +10,22 @@ angular.module('escomm')
 })
 
 .controller('ContactsCtrl', function ($scope, $http, $location, inviteSuccess) {
+  $scope.contacts = [{"nameline":"Chris C","actions":"Last Activity 1 Day Ago","open":"Opened 100%","recd":"Received 5\/8"},{"nameline":"Paulo P","actions":"Last Activity 9 Days Ago","open":"Opened 50%","recd":"Received 2\/8"},{"nameline":"Abigal A","actions":"Invited 10 Days Ago","open":"","recd":"Reinvite"},{"nameline":"Samantha S","actions":"Last Activity 12 Days Ago","open":"","recd":"Remove"}];
 
-  $http.post("https://crucore.com/api.php?a=activity&i=ssk", ("")).success(function(data, status) {
-    if(data.success) {
-      var msg = data.msg;
-      console.log(msg);
-    } else {
-        var msg = data.msg;
-        console.log(msg);
-    }
-    $location.path( '/contacts_activity' );
-  });
+  // $http.post("https://crucore.com/api.php?a=activity&i=ssk", ("")).success(function(data, status) {
+  //   if(data.success) {
+  //     var msg = data.msg;
+  //     console.log(msg);
+  //   } else {
+  //       var msg = data.msg;
+  //       console.log(msg);
+  //   }
+  //   $location.path( '/contacts_activity' );
+  // });
 })
 
 .controller('MainCtrl', function ($scope, $http, $location, inviteSuccess) {
+  $scope.lessons = [{"lessonNum":"1","firstBlock":"first block of email","edittableSection":"this section is edittable", "lastSection":"last section of email"},{"nameline":"Paulo P","actions":"Last Activity 9 Days Ago","open":"Opened 50%","recd":"Received 2\/8"},{"nameline":"Abigal A","actions":"Invited 10 Days Ago","open":"","recd":"Reinvite"},{"nameline":"Samantha S","actions":"Last Activity 12 Days Ago","open":"","recd":"Remove"}];
 
   $scope.FormData = {};
   $scope.isDisabled = false;
@@ -38,6 +40,10 @@ angular.module('escomm')
 
   $scope.showError = first.inviteSuccess.showError;
   $scope.failureMessage = first.inviteSuccess.failureMessage;
+
+  $scope.someFunction = function (index){
+    console.log(index);
+  }
 
   $scope.sendInvite = function() {
     //disable/show button

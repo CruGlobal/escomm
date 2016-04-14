@@ -43,28 +43,20 @@
                     <div class="main-content">
                       <div class="col-sm-12">
                         <a href="/#/send_invite" class="clear"><button type="button" class="btn btn-orange"> <translate>+ New Invitation</translate></button></a>
+
                         <table style="width:100%">
-                          <tr>
-                            <td><translate>Chris C.</translate><br/><span translate>Last Activity 1 Day Ago</span></td>
-                            <td><translate>Opened</translate><br/><span translate>100%</span></td> 
-                            <td><translate>Received</translate><br/><span translate>5/8</span></td>
-                          </tr>
-                          <tr>
-                            <td><translate>Paulo P.</translate><br/><span translate>Last Activity 9 Days Ago</span></td>
-                            <td><translate>Opened</translate><br/><span translate>50%</span></td> 
-                            <td><translate>Received</translate><br/><span translate>2/8</span></td>
-                          </tr>
-                          <tr>
-                            <td><translate>Abigail A.</translate><br/><span translate>Invited: 10 Days Ago</span></td>
-                            <td></td> 
-                            <td><a href="" translate>Reinvite</a></td>
-                          </tr>
-                          <tr>
-                            <td><translate>Samantha S.</translate><br/><span translate>Last Activity 12 Days Ago</span></td>
-                            <td></td> 
-                            <td><a href=""><span translate>Remove</span></a></td>
+                          <tr ng-repeat="x in contacts">
+                            <td>
+                            {{ x.nameline }}<br/>
+                            {{ x.actions }}</td>
+                            <td>
+                            {{ x.open }}</td>
+                            <td>
+                            {{ x.recd }}
+                            </td>
                           </tr>
                         </table>
+
                       </div>
                     </div>
                 </div>
